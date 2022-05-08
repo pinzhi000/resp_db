@@ -1,0 +1,12 @@
+audiomentations==0.24.0
+keras==2.8.0
+librosa==0.9.1
+matplotlib==3.5.2
+numpy==1.21.6
+pandas==1.4.2
+pydub==0.25.1
+scikit_learn==1.0.2
+scipy==1.8.0
+streamlit==1.8.1
+tensorflow==2.8.0
+tensorflow_text==2.8.2
