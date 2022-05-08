@@ -144,12 +144,20 @@ if app_mode == 'Real-time Prediction':
             
             audio_array = audio_features(uploaded_file.name)
             st.write(audio_array)
+
+            audio_array = audio_array.reshape(193, 1)
+            st.write(audio_array.shape)
+
+            # transform audio array 
+            audio_file_reshaped = np.reshape(audio_array, [1, 193, 1, 1])
+            st.write(audio_file_reshaped.shape)
+
             
             # make prediction
             picklefile = open("./rsd-model.pkl", "rb") 
             model = pickle.load(picklefile)
 
-            prediction = model.predict(audio_array)
+            prediction = np.argmax(model.predict(audio_file_reshaped))
             st.write(prediction)
 
         # spinning 
