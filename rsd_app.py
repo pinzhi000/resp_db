@@ -26,6 +26,13 @@ import tensorflow_text as text
 # pickle! 
 import pickle
 
+# progress bar
+import time 
+
+# test
+    # source: https://www.tensorflow.org/api_docs/python/tf/saved_model/LoadOptions
+tensorflow.saved_model.LoadOptions(experimental_io_device = '/job:localhost')
+
 
 # define global variables 
 # set path 
@@ -143,22 +150,60 @@ if app_mode == 'Real-time Prediction':
         if st.button("Predict"):
             
             audio_array = audio_features(uploaded_file.name)
-            st.write(audio_array)
-
             audio_array = audio_array.reshape(193, 1)
-            st.write(audio_array.shape)
 
-            # transform audio array 
+            # transform audio array to feed into deep learning model 
             audio_file_reshaped = np.reshape(audio_array, [1, 193, 1, 1])
-            st.write(audio_file_reshaped.shape)
 
-            
-            # make prediction
-            picklefile = open("./rsd-model.pkl", "rb") 
-            model = pickle.load(picklefile)
 
-            prediction = np.argmax(model.predict(audio_file_reshaped))
-            st.write(prediction)
+            model = tensorflow.keras.models.load_model('./saved_model')
+
+            # loading spinner 
+            with st.spinner('Calculating...'):
+                time.sleep(3)
+
+            prediction_num = np.argmax(model.predict(audio_file_reshaped))
+
+            # convert numbers to diseases 
+                # {"COPD":0, "Healthy":1, "URTI":2, "Bronchiectasis":3, "Pneumonia":4, "Bronchiolitis":5, "Asthma":6, "LRTI":7}
+            if prediction_num == 0:
+                class_pred = "Chronic Obstructive Pulmonary Disease (COPD)"
+            elif prediction_num == 1:
+                class_pred = "Healthy"
+            elif prediction_num == 2:
+                class_pred = "Upper Respiratory Tract Infection (URTI)"
+            elif prediction_num == 3:
+                class_pred = "Bronchiectasis"
+            elif prediction_num == 4:
+                class_pred = "Pneumonia"
+            elif prediction_num == 5:
+                class_pred = "Bronchiolitis"
+            elif prediction_num == 6:
+                class_pred = "Asthma"
+            elif prediction_num == 7:
+                class_pred = "Lower Respiratory Tract Infection (LRTI)"
+
+
+
+            # write classification to front-end 
+            st.markdown(f"**Patient Diagnosis:** {class_pred}")
+
+            # expander section to provide details around prediction 
+            with st.expander("See details"):
+                st.write("**Step 1:** ingest uploaded patient audio file")
+                st.write("**Step 2:** extract specific features from audio file and place them in an array structure (shown below)")
+                st.write(audio_array)
+                st.write("**Step 3:** push above array through Convolutional Neural Network (CNN) deep learning model to obtain prediction (CNN model structure shown below)")
+                st.image('./CNN/Model Structure Layers.png')
+                st.markdown(f"**Step 4:** Above model predicts / diagnoses the uploaded patient audio file with **{class_pred}**")
+                st.write("**Step 5:** CNN model has overall predictive training accuracy of ~86%")
+                st.image('./CNN/acc_loss.png')
+                
+
+
+
+
+
 
         # spinning 
 
