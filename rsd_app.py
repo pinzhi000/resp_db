@@ -185,8 +185,9 @@ if app_mode == 'Real-time Prediction':
                 class_pred = "Asthma"
             elif prediction_num == 7:
                 class_pred = "Lower Respiratory Tract Infection (LRTI)"
-                
 
+            st.write("tested here!")
+            
             # write classification to front-end 
             st.markdown(f"**Patient Diagnosis:** {class_pred}")
 
