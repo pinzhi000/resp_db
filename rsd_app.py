@@ -156,7 +156,7 @@ if app_mode == 'Real-time Prediction':
             audio_file_reshaped = np.reshape(audio_array, [1, 193, 1, 1])
 
 
-            model = tensorflow.keras.models.load_model(path+'./saved_model')
+            model = tensorflow.keras.models.load_model(path+'/saved_model') #set filepath for Github 
 
             # loading spinner 
             with st.spinner('Calculating...'):
