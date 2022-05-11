@@ -156,6 +156,9 @@ if app_mode == 'Real-time Prediction':
             audio_file_reshaped = np.reshape(audio_array, [1, 193, 1, 1])
 
 
+            # note: save tf model as .h5 file directly to avoid cloud deployment issues 
+                # source: https://www.tensorflow.org/guide/keras/save_and_serialize#:~:text=The%20recommended%20format%20is%20SavedModel,'h5'%20to%20save()%20.
+                # source: https://discuss.streamlit.io/t/oserror-savedmodel-file-does-not-exist-at/12985
             model = tensorflow.keras.models.load_model('my_model_test.h5') #set filepath for Github 
 
             # loading spinner 
@@ -182,9 +185,7 @@ if app_mode == 'Real-time Prediction':
                 class_pred = "Asthma"
             elif prediction_num == 7:
                 class_pred = "Lower Respiratory Tract Infection (LRTI)"
-
-            # write path 
-            st.write(path)
+                
 
             # write classification to front-end 
             st.markdown(f"**Patient Diagnosis:** {class_pred}")
