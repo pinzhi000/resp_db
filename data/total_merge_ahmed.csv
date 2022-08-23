@@ -1,0 +1,921 @@
+,pid,Age,Sex,Adult BMI (kg/m2),Child Weight (kg),Child Height (cm),diagnosis,filename,idk what this is,Chest location,Acquisition mode,Recording equipment
+0,101,3,F,,19,99,URTI,101_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+1,101,3,F,,19,99,URTI,101_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+2,102,0.75,F,,9.8,73,Healthy,102_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+3,103,70,F,33,,,Asthma,103_2b2_Ar_mc_LittC2SE,2b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+4,104,70,F,28.47,,,COPD,104_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+5,104,70,F,28.47,,,COPD,104_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+6,104,70,F,28.47,,,COPD,104_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+7,104,70,F,28.47,,,COPD,104_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+8,104,70,F,28.47,,,COPD,104_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+9,104,70,F,28.47,,,COPD,104_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+10,105,7,F,,32,135,URTI,105_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+11,106,73,F,21,,,COPD,106_2b1_Pl_mc_LittC2SE,2b1,Posterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+12,106,73,F,21,,,COPD,106_2b1_Pr_mc_LittC2SE,2b1,Posterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+13,107,75,F,33.7,,,COPD,107_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+14,107,75,F,33.7,,,COPD,107_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+15,107,75,F,33.7,,,COPD,107_2b3_Ll_mc_AKGC417L,2b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+16,107,75,F,33.7,,,COPD,107_2b3_Lr_mc_AKGC417L,2b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+17,107,75,F,33.7,,,COPD,107_2b3_Pl_mc_AKGC417L,2b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+18,107,75,F,33.7,,,COPD,107_2b3_Pr_mc_AKGC417L,2b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+19,107,75,F,33.7,,,COPD,107_2b3_Tc_mc_AKGC417L,2b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+20,107,75,F,33.7,,,COPD,107_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+21,107,75,F,33.7,,,COPD,107_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+22,107,75,F,33.7,,,COPD,107_2b4_Ll_mc_AKGC417L,2b4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+23,107,75,F,33.7,,,COPD,107_2b4_Lr_mc_AKGC417L,2b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+24,107,75,F,33.7,,,COPD,107_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+25,107,75,F,33.7,,,COPD,107_2b4_Pr_mc_AKGC417L,2b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+26,107,75,F,33.7,,,COPD,107_2b4_Tc_mc_AKGC417L,2b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+27,107,75,F,33.7,,,COPD,107_2b5_Al_mc_AKGC417L,2b5,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+28,107,75,F,33.7,,,COPD,107_2b5_Ar_mc_AKGC417L,2b5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+29,107,75,F,33.7,,,COPD,107_2b5_Ll_mc_AKGC417L,2b5,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+30,107,75,F,33.7,,,COPD,107_2b5_Lr_mc_AKGC417L,2b5,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+31,107,75,F,33.7,,,COPD,107_2b5_Pl_mc_AKGC417L,2b5,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+32,107,75,F,33.7,,,COPD,107_2b5_Pr_mc_AKGC417L,2b5,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+33,107,75,F,33.7,,,COPD,107_2b5_Tc_mc_AKGC417L,2b5,Trachea,simultaneous/multichannel,AKG C417L Microphone
+34,107,75,F,33.7,,,COPD,107_3p2_Al_mc_AKGC417L,3p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+35,107,75,F,33.7,,,COPD,107_3p2_Ar_mc_AKGC417L,3p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+36,107,75,F,33.7,,,COPD,107_3p2_Ll_mc_AKGC417L,3p2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+37,107,75,F,33.7,,,COPD,107_3p2_Lr_mc_AKGC417L,3p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+38,107,75,F,33.7,,,COPD,107_3p2_Pl_mc_AKGC417L,3p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+39,107,75,F,33.7,,,COPD,107_3p2_Pr_mc_AKGC417L,3p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+40,107,75,F,33.7,,,COPD,107_3p2_Tc_mc_AKGC417L,3p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+41,108,3,M,,,,LRTI,108_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+42,109,84,F,33.53,,,COPD,109_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+43,109,84,F,33.53,,,COPD,109_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+44,109,84,F,33.53,,,COPD,109_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+45,109,84,F,33.53,,,COPD,109_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+46,109,84,F,33.53,,,COPD,109_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+47,109,84,F,33.53,,,COPD,109_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+48,110,75,M,25.21,,,COPD,110_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+49,110,75,M,25.21,,,COPD,110_1p1_Al_sc_Meditron,1p1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+50,110,75,M,25.21,,,COPD,110_1p1_Ll_sc_Meditron,1p1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+51,110,75,M,25.21,,,COPD,110_1p1_Lr_sc_Meditron,1p1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+52,110,75,M,25.21,,,COPD,110_1p1_Pr_sc_Meditron,1p1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+53,111,63,M,28.4,,,Bronchiectasis,111_1b2_Tc_sc_Meditron,1b2,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+54,111,63,M,28.4,,,Bronchiectasis,111_1b3_Tc_sc_Meditron,1b3,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+55,112,60,M,22.86,,,COPD,112_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+56,112,60,M,22.86,,,COPD,112_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+57,112,60,M,22.86,,,COPD,112_1p1_Ll_sc_Litt3200,1p1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+58,112,60,M,22.86,,,COPD,112_1p1_Pl_sc_Litt3200,1p1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+59,112,60,M,22.86,,,COPD,112_1p1_Pr_sc_Litt3200,1p1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+60,113,58,M,28.41,,,COPD,113_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+61,113,58,M,28.41,,,COPD,113_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+62,113,58,M,28.41,,,COPD,113_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+63,113,58,M,28.41,,,COPD,113_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+64,113,58,M,28.41,,,COPD,113_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+65,113,58,M,28.41,,,COPD,113_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+66,114,77,M,23.12,,,COPD,114_1b4_Al_mc_AKGC417L,1b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+67,114,77,M,23.12,,,COPD,114_1b4_Ar_mc_AKGC417L,1b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+68,114,77,M,23.12,,,COPD,114_1b4_Lr_mc_AKGC417L,1b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+69,114,77,M,23.12,,,COPD,114_1b4_Pl_mc_AKGC417L,1b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+70,114,77,M,23.12,,,COPD,114_1b4_Pr_mc_AKGC417L,1b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+71,115,0.58,M,,7.14,64,LRTI,115_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+72,116,56,M,28.58,,,Bronchiectasis,116_1b2_Pl_sc_Meditron,1b2,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+73,116,56,M,28.58,,,Bronchiectasis,116_1b2_Tc_sc_Meditron,1b2,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+74,117,68,M,24.4,,,COPD,117_1b2_Tc_mc_LittC2SE,1b2,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+75,117,68,M,24.4,,,COPD,117_1b3_Tc_mc_LittC2SE,1b3,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+76,118,81,M,36.76,,,COPD,118_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+77,118,81,M,36.76,,,COPD,118_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+78,118,81,M,36.76,,,COPD,118_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+79,118,81,M,36.76,,,COPD,118_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+80,118,81,M,36.76,,,COPD,118_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+81,118,81,M,36.76,,,COPD,118_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+82,119,2,F,,15.2,94,URTI,119_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+83,120,78,M,35.14,,,COPD,120_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+84,120,78,M,35.14,,,COPD,120_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+85,120,78,M,35.14,,,COPD,120_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+86,120,78,M,35.14,,,COPD,120_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+87,120,78,M,35.14,,,COPD,120_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+88,121,13,F,,65,170,Healthy,121_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+89,121,13,F,,65,170,Healthy,121_1p1_Tc_sc_Meditron,1p1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+90,122,66,M,33,,,Pneumonia,122_2b1_Al_mc_LittC2SE,2b1,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+91,122,66,M,33,,,Pneumonia,122_2b1_Ar_mc_LittC2SE,2b1,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+92,122,66,M,33,,,Pneumonia,122_2b1_Tc_mc_LittC2SE,2b1,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+93,122,66,M,33,,,Pneumonia,122_2b2_Al_mc_LittC2SE,2b2,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+94,122,66,M,33,,,Pneumonia,122_2b2_Ar_mc_LittC2SE,2b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+95,122,66,M,33,,,Pneumonia,122_2b2_Tc_mc_LittC2SE,2b2,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+96,122,66,M,33,,,Pneumonia,122_2b3_Al_mc_LittC2SE,2b3,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+97,122,66,M,33,,,Pneumonia,122_2b3_Ar_mc_LittC2SE,2b3,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+98,122,66,M,33,,,Pneumonia,122_2b3_Tc_mc_LittC2SE,2b3,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+99,123,5,M,,25,125,Healthy,123_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+100,124,65,M,29.07,,,COPD,124_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+101,124,65,M,29.07,,,COPD,124_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+102,124,65,M,29.07,,,COPD,124_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+103,124,65,M,29.07,,,COPD,124_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+104,124,65,M,29.07,,,COPD,124_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+105,124,65,M,29.07,,,COPD,124_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+106,125,14,M,,62,170,Healthy,125_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+107,126,1,F,,10.18,80,Healthy,126_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+108,127,2,M,,12.6,98,Healthy,127_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+109,128,65,F,24.3,,,COPD,128_1b3_Tc_mc_LittC2SE,1b3,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+110,129,6,M,,23,119,URTI,129_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+111,130,85,F,17.1,,,COPD,130_1p2_Al_mc_AKGC417L,1p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+112,130,85,F,17.1,,,COPD,130_1p2_Ar_mc_AKGC417L,1p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+113,130,85,F,17.1,,,COPD,130_1p2_Ll_mc_AKGC417L,1p2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+114,130,85,F,17.1,,,COPD,130_1p2_Lr_mc_AKGC417L,1p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+115,130,85,F,17.1,,,COPD,130_1p2_Pl_mc_AKGC417L,1p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+116,130,85,F,17.1,,,COPD,130_1p2_Pr_mc_AKGC417L,1p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+117,130,85,F,17.1,,,COPD,130_1p2_Tc_mc_AKGC417L,1p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+118,130,85,F,17.1,,,COPD,130_1p3_Al_mc_AKGC417L,1p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+119,130,85,F,17.1,,,COPD,130_1p3_Ar_mc_AKGC417L,1p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+120,130,85,F,17.1,,,COPD,130_1p3_Ll_mc_AKGC417L,1p3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+121,130,85,F,17.1,,,COPD,130_1p3_Lr_mc_AKGC417L,1p3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+122,130,85,F,17.1,,,COPD,130_1p3_Pl_mc_AKGC417L,1p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+123,130,85,F,17.1,,,COPD,130_1p3_Pr_mc_AKGC417L,1p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+124,130,85,F,17.1,,,COPD,130_1p3_Tc_mc_AKGC417L,1p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+125,130,85,F,17.1,,,COPD,130_1p4_Al_mc_AKGC417L,1p4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+126,130,85,F,17.1,,,COPD,130_1p4_Ar_mc_AKGC417L,1p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+127,130,85,F,17.1,,,COPD,130_1p4_Ll_mc_AKGC417L,1p4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+128,130,85,F,17.1,,,COPD,130_1p4_Lr_mc_AKGC417L,1p4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+129,130,85,F,17.1,,,COPD,130_1p4_Pl_mc_AKGC417L,1p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+130,130,85,F,17.1,,,COPD,130_1p4_Pr_mc_AKGC417L,1p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+131,130,85,F,17.1,,,COPD,130_1p4_Tc_mc_AKGC417L,1p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+132,130,85,F,17.1,,,COPD,130_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+133,130,85,F,17.1,,,COPD,130_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+134,130,85,F,17.1,,,COPD,130_2b2_Ll_mc_AKGC417L,2b2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+135,130,85,F,17.1,,,COPD,130_2b2_Lr_mc_AKGC417L,2b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+136,130,85,F,17.1,,,COPD,130_2b2_Pl_mc_AKGC417L,2b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+137,130,85,F,17.1,,,COPD,130_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+138,130,85,F,17.1,,,COPD,130_2b2_Tc_mc_AKGC417L,2b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+139,130,85,F,17.1,,,COPD,130_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+140,130,85,F,17.1,,,COPD,130_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+141,130,85,F,17.1,,,COPD,130_2b3_Ll_mc_AKGC417L,2b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+142,130,85,F,17.1,,,COPD,130_2b3_Lr_mc_AKGC417L,2b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+143,130,85,F,17.1,,,COPD,130_2b3_Pl_mc_AKGC417L,2b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+144,130,85,F,17.1,,,COPD,130_2b3_Pr_mc_AKGC417L,2b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+145,130,85,F,17.1,,,COPD,130_2b3_Tc_mc_AKGC417L,2b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+146,130,85,F,17.1,,,COPD,130_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+147,130,85,F,17.1,,,COPD,130_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+148,130,85,F,17.1,,,COPD,130_2b4_Ll_mc_AKGC417L,2b4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+149,130,85,F,17.1,,,COPD,130_2b4_Lr_mc_AKGC417L,2b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+150,130,85,F,17.1,,,COPD,130_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+151,130,85,F,17.1,,,COPD,130_2p3_Pl_mc_AKGC417L,2p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+152,130,85,F,17.1,,,COPD,130_2p5_Al_mc_AKGC417L,2p5,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+153,130,85,F,17.1,,,COPD,130_2p5_Ar_mc_AKGC417L,2p5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+154,130,85,F,17.1,,,COPD,130_2p5_Lr_mc_AKGC417L,2p5,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+155,130,85,F,17.1,,,COPD,130_2p5_Pl_mc_AKGC417L,2p5,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+156,130,85,F,17.1,,,COPD,130_2p5_Pr_mc_AKGC417L,2p5,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+157,130,85,F,17.1,,,COPD,130_2p5_Tc_mc_AKGC417L,2p5,Trachea,simultaneous/multichannel,AKG C417L Microphone
+158,130,85,F,17.1,,,COPD,130_3b3_Ll_mc_AKGC417L,3b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+159,130,85,F,17.1,,,COPD,130_3b4_Al_mc_AKGC417L,3b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+160,130,85,F,17.1,,,COPD,130_3b4_Ar_mc_AKGC417L,3b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+161,130,85,F,17.1,,,COPD,130_3b4_Lr_mc_AKGC417L,3b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+162,130,85,F,17.1,,,COPD,130_3b4_Pl_mc_AKGC417L,3b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+163,130,85,F,17.1,,,COPD,130_3b4_Pr_mc_AKGC417L,3b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+164,130,85,F,17.1,,,COPD,130_3p2_Al_mc_AKGC417L,3p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+165,130,85,F,17.1,,,COPD,130_3p2_Ar_mc_AKGC417L,3p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+166,130,85,F,17.1,,,COPD,130_3p2_Pl_mc_AKGC417L,3p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+167,130,85,F,17.1,,,COPD,130_3p2_Pr_mc_AKGC417L,3p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+168,130,85,F,17.1,,,COPD,130_3p2_Tc_mc_AKGC417L,3p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+169,130,85,F,17.1,,,COPD,130_3p3_Al_mc_AKGC417L,3p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+170,130,85,F,17.1,,,COPD,130_3p3_Pl_mc_AKGC417L,3p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+171,130,85,F,17.1,,,COPD,130_3p3_Pr_mc_AKGC417L,3p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+172,130,85,F,17.1,,,COPD,130_3p3_Tc_mc_AKGC417L,3p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+173,130,85,F,17.1,,,COPD,130_3p4_Al_mc_AKGC417L,3p4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+174,130,85,F,17.1,,,COPD,130_3p4_Pl_mc_AKGC417L,3p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+175,130,85,F,17.1,,,COPD,130_3p4_Pr_mc_AKGC417L,3p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+176,130,85,F,17.1,,,COPD,130_3p4_Tc_mc_AKGC417L,3p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+177,131,3,M,,14,97,URTI,131_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+178,132,71,M,34,,,COPD,132_2b1_Lr_mc_LittC2SE,2b1,Lateral right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+179,132,71,M,34,,,COPD,132_2b2_Lr_mc_LittC2SE,2b2,Lateral right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+180,133,68,M,27.4,,,COPD,133_2p2_Al_mc_AKGC417L,2p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+181,133,68,M,27.4,,,COPD,133_2p2_Ar_mc_AKGC417L,2p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+182,133,68,M,27.4,,,COPD,133_2p2_Pl_mc_AKGC417L,2p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+183,133,68,M,27.4,,,COPD,133_2p2_Tc_mc_AKGC417L,2p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+184,133,68,M,27.4,,,COPD,133_2p3_Al_mc_AKGC417L,2p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+185,133,68,M,27.4,,,COPD,133_2p3_Ar_mc_AKGC417L,2p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+186,133,68,M,27.4,,,COPD,133_2p3_Pl_mc_AKGC417L,2p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+187,133,68,M,27.4,,,COPD,133_2p3_Pr_mc_AKGC417L,2p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+188,133,68,M,27.4,,,COPD,133_2p3_Tc_mc_AKGC417L,2p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+189,133,68,M,27.4,,,COPD,133_2p4_Al_mc_AKGC417L,2p4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+190,133,68,M,27.4,,,COPD,133_2p4_Ar_mc_AKGC417L,2p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+191,133,68,M,27.4,,,COPD,133_2p4_Pl_mc_AKGC417L,2p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+192,133,68,M,27.4,,,COPD,133_2p4_Pr_mc_AKGC417L,2p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+193,133,68,M,27.4,,,COPD,133_2p4_Tc_mc_AKGC417L,2p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+194,133,68,M,27.4,,,COPD,133_3p2_Al_mc_AKGC417L,3p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+195,133,68,M,27.4,,,COPD,133_3p2_Ar_mc_AKGC417L,3p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+196,133,68,M,27.4,,,COPD,133_3p2_Pl_mc_AKGC417L,3p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+197,133,68,M,27.4,,,COPD,133_3p2_Pr_mc_AKGC417L,3p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+198,133,68,M,27.4,,,COPD,133_3p4_Tc_mc_AKGC417L,3p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+199,134,61,M,32,,,COPD,134_2b1_Al_mc_LittC2SE,2b1,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+200,134,61,M,32,,,COPD,134_2b1_Ar_mc_LittC2SE,2b1,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+201,134,61,M,32,,,COPD,134_2b2_Al_mc_LittC2SE,2b2,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+202,134,61,M,32,,,COPD,134_2b2_Ar_mc_LittC2SE,2b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+203,134,61,M,32,,,COPD,134_2b3_Ar_mc_LittC2SE,2b3,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+204,135,70,M,21,,,Pneumonia,135_2b1_Al_mc_LittC2SE,2b1,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+205,135,70,M,21,,,Pneumonia,135_2b1_Ar_mc_LittC2SE,2b1,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+206,135,70,M,21,,,Pneumonia,135_2b1_Pl_mc_LittC2SE,2b1,Posterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+207,135,70,M,21,,,Pneumonia,135_2b1_Tc_mc_LittC2SE,2b1,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+208,135,70,M,21,,,Pneumonia,135_2b2_Al_mc_LittC2SE,2b2,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+209,135,70,M,21,,,Pneumonia,135_2b2_Ar_mc_LittC2SE,2b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+210,135,70,M,21,,,Pneumonia,135_2b2_Pl_mc_LittC2SE,2b2,Posterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+211,135,70,M,21,,,Pneumonia,135_2b2_Tc_mc_LittC2SE,2b2,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+212,135,70,M,21,,,Pneumonia,135_2b3_Al_mc_LittC2SE,2b3,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+213,135,70,M,21,,,Pneumonia,135_2b3_Ar_mc_LittC2SE,2b3,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+214,135,70,M,21,,,Pneumonia,135_2b3_Pl_mc_LittC2SE,2b3,Posterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+215,135,70,M,21,,,Pneumonia,135_2b3_Pr_mc_LittC2SE,2b3,Posterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+216,135,70,M,21,,,Pneumonia,135_2b3_Tc_mc_LittC2SE,2b3,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+217,136,5,M,,16.2,110,Healthy,136_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+218,137,4,M,,18,104,URTI,137_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+219,137,4,M,,18,104,URTI,137_1b1_Ll_sc_Meditron,1b1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+220,138,56,F,21.6,,,COPD,138_1p2_Al_mc_AKGC417L,1p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+221,138,56,F,21.6,,,COPD,138_1p2_Ar_mc_AKGC417L,1p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+222,138,56,F,21.6,,,COPD,138_1p2_Ll_mc_AKGC417L,1p2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+223,138,56,F,21.6,,,COPD,138_1p2_Lr_mc_AKGC417L,1p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+224,138,56,F,21.6,,,COPD,138_1p2_Pl_mc_AKGC417L,1p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+225,138,56,F,21.6,,,COPD,138_1p2_Pr_mc_AKGC417L,1p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+226,138,56,F,21.6,,,COPD,138_1p2_Tc_mc_AKGC417L,1p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+227,138,56,F,21.6,,,COPD,138_1p3_Al_mc_AKGC417L,1p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+228,138,56,F,21.6,,,COPD,138_1p3_Ar_mc_AKGC417L,1p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+229,138,56,F,21.6,,,COPD,138_1p3_Ll_mc_AKGC417L,1p3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+230,138,56,F,21.6,,,COPD,138_1p3_Lr_mc_AKGC417L,1p3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+231,138,56,F,21.6,,,COPD,138_1p3_Pl_mc_AKGC417L,1p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+232,138,56,F,21.6,,,COPD,138_1p3_Pr_mc_AKGC417L,1p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+233,138,56,F,21.6,,,COPD,138_1p3_Tc_mc_AKGC417L,1p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+234,138,56,F,21.6,,,COPD,138_1p4_Ar_mc_AKGC417L,1p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+235,138,56,F,21.6,,,COPD,138_1p4_Ll_mc_AKGC417L,1p4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+236,138,56,F,21.6,,,COPD,138_1p4_Lr_mc_AKGC417L,1p4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+237,138,56,F,21.6,,,COPD,138_1p4_Pl_mc_AKGC417L,1p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+238,138,56,F,21.6,,,COPD,138_1p4_Pr_mc_AKGC417L,1p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+239,138,56,F,21.6,,,COPD,138_1p4_Tc_mc_AKGC417L,1p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+240,138,56,F,21.6,,,COPD,138_2p2_Al_mc_AKGC417L,2p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+241,138,56,F,21.6,,,COPD,138_2p2_Ar_mc_AKGC417L,2p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+242,138,56,F,21.6,,,COPD,138_2p2_Ll_mc_AKGC417L,2p2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+243,138,56,F,21.6,,,COPD,138_2p2_Lr_mc_AKGC417L,2p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+244,138,56,F,21.6,,,COPD,138_2p2_Pl_mc_AKGC417L,2p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+245,138,56,F,21.6,,,COPD,138_2p2_Pr_mc_AKGC417L,2p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+246,138,56,F,21.6,,,COPD,138_2p2_Tc_mc_AKGC417L,2p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+247,139,61,M,28.68,,,COPD,139_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+248,139,61,M,28.68,,,COPD,139_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+249,139,61,M,28.68,,,COPD,139_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+250,139,61,M,28.68,,,COPD,139_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+251,139,61,M,28.68,,,COPD,139_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+252,139,61,M,28.68,,,COPD,139_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+253,140,79,F,23,,,Pneumonia,140_2b2_Ll_mc_LittC2SE,2b2,Lateral left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+254,140,79,F,23,,,Pneumonia,140_2b2_Tc_mc_LittC2SE,2b2,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+255,140,79,F,23,,,Pneumonia,140_2b3_Ll_mc_LittC2SE,2b3,Lateral left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+256,140,79,F,23,,,Pneumonia,140_2b3_Tc_mc_LittC2SE,2b3,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+257,141,66,M,22.4,,,COPD,141_1b1_Pr_mc_LittC2SE,1b1,Posterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+258,141,66,M,22.4,,,COPD,141_1b2_Ar_mc_LittC2SE,1b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+259,141,66,M,22.4,,,COPD,141_1b2_Lr_mc_LittC2SE,1b2,Lateral right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+260,141,66,M,22.4,,,COPD,141_1b2_Pr_mc_LittC2SE,1b2,Posterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+261,141,66,M,22.4,,,COPD,141_1b2_Tc_mc_LittC2SE,1b2,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+262,141,66,M,22.4,,,COPD,141_1b3_Al_mc_LittC2SE,1b3,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+263,141,66,M,22.4,,,COPD,141_1b3_Ar_mc_LittC2SE,1b3,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+264,141,66,M,22.4,,,COPD,141_1b3_Pr_mc_LittC2SE,1b3,Posterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+265,142,78,M,26.1,,,COPD,142_1b1_Pl_mc_LittC2SE,1b1,Posterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+266,143,0.25,F,,8.24,68,Healthy,143_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+267,144,3,M,,16.7,100,Healthy,144_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+268,144,3,M,,16.7,100,Healthy,144_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+269,145,69,M,23.4,,,COPD,145_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+270,145,69,M,23.4,,,COPD,145_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+271,145,69,M,23.4,,,COPD,145_2b2_Lr_mc_AKGC417L,2b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+272,145,69,M,23.4,,,COPD,145_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+273,145,69,M,23.4,,,COPD,145_3b2_Ar_mc_AKGC417L,3b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+274,145,69,M,23.4,,,COPD,145_3b2_Lr_mc_AKGC417L,3b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+275,145,69,M,23.4,,,COPD,145_3b4_Pl_mc_AKGC417L,3b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+276,146,67,M,28,,,COPD,146_2b2_Pl_mc_AKGC417L,2b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+277,146,67,M,28,,,COPD,146_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+278,146,67,M,28,,,COPD,146_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+279,146,67,M,28,,,COPD,146_2b4_Ll_mc_AKGC417L,2b4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+280,146,67,M,28,,,COPD,146_2b4_Lr_mc_AKGC417L,2b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+281,146,67,M,28,,,COPD,146_2b4_Pr_mc_AKGC417L,2b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+282,146,67,M,28,,,COPD,146_8p3_Al_mc_AKGC417L,8p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+283,146,67,M,28,,,COPD,146_8p3_Ar_mc_AKGC417L,8p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+284,146,67,M,28,,,COPD,146_8p3_Lr_mc_AKGC417L,8p3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+285,146,67,M,28,,,COPD,146_8p3_Pl_mc_AKGC417L,8p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+286,146,67,M,28,,,COPD,146_8p3_Pr_mc_AKGC417L,8p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+287,147,77,M,25.7,,,COPD,147_1b2_Tc_mc_AKGC417L,1b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+288,147,77,M,25.7,,,COPD,147_1b3_Tc_mc_AKGC417L,1b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+289,147,77,M,25.7,,,COPD,147_1b4_Tc_mc_AKGC417L,1b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+290,147,77,M,25.7,,,COPD,147_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+291,147,77,M,25.7,,,COPD,147_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+292,147,77,M,25.7,,,COPD,147_2b2_Pl_mc_AKGC417L,2b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+293,147,77,M,25.7,,,COPD,147_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+294,147,77,M,25.7,,,COPD,147_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+295,147,77,M,25.7,,,COPD,147_2b3_Ll_mc_AKGC417L,2b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+296,147,77,M,25.7,,,COPD,147_2b3_Lr_mc_AKGC417L,2b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+297,147,77,M,25.7,,,COPD,147_2b3_Pl_mc_AKGC417L,2b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+298,147,77,M,25.7,,,COPD,147_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+299,147,77,M,25.7,,,COPD,147_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+300,147,77,M,25.7,,,COPD,147_2b4_Ll_mc_AKGC417L,2b4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+301,147,77,M,25.7,,,COPD,147_2b4_Lr_mc_AKGC417L,2b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+302,147,77,M,25.7,,,COPD,147_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+303,148,4,M,,33,110,URTI,148_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+304,149,0.67,M,,9.5,70,Bronchiolitis,149_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+305,149,0.67,M,,9.5,70,Bronchiolitis,149_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+306,149,0.67,M,,9.5,70,Bronchiolitis,149_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+307,150,0.67,F,,8.12,74,URTI,150_1b2_Al_sc_Meditron,1b2,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+308,151,75,M,28.4,,,COPD,151_2p2_Al_mc_AKGC417L,2p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+309,151,75,M,28.4,,,COPD,151_2p2_Ar_mc_AKGC417L,2p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+310,151,75,M,28.4,,,COPD,151_2p2_Ll_mc_AKGC417L,2p2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+311,151,75,M,28.4,,,COPD,151_2p2_Lr_mc_AKGC417L,2p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+312,151,75,M,28.4,,,COPD,151_2p2_Pl_mc_AKGC417L,2p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+313,151,75,M,28.4,,,COPD,151_2p2_Pr_mc_AKGC417L,2p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+314,151,75,M,28.4,,,COPD,151_2p2_Tc_mc_AKGC417L,2p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+315,151,75,M,28.4,,,COPD,151_2p3_Al_mc_AKGC417L,2p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+316,151,75,M,28.4,,,COPD,151_2p3_Ar_mc_AKGC417L,2p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+317,151,75,M,28.4,,,COPD,151_2p3_Ll_mc_AKGC417L,2p3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+318,151,75,M,28.4,,,COPD,151_2p3_Lr_mc_AKGC417L,2p3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+319,151,75,M,28.4,,,COPD,151_2p3_Pl_mc_AKGC417L,2p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+320,151,75,M,28.4,,,COPD,151_2p3_Pr_mc_AKGC417L,2p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+321,151,75,M,28.4,,,COPD,151_2p3_Tc_mc_AKGC417L,2p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+322,151,75,M,28.4,,,COPD,151_2p4_Al_mc_AKGC417L,2p4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+323,151,75,M,28.4,,,COPD,151_2p4_Ar_mc_AKGC417L,2p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+324,151,75,M,28.4,,,COPD,151_2p4_Ll_mc_AKGC417L,2p4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+325,151,75,M,28.4,,,COPD,151_2p4_Lr_mc_AKGC417L,2p4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+326,151,75,M,28.4,,,COPD,151_2p4_Pl_mc_AKGC417L,2p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+327,151,75,M,28.4,,,COPD,151_2p4_Pr_mc_AKGC417L,2p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+328,151,75,M,28.4,,,COPD,151_2p4_Tc_mc_AKGC417L,2p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+329,151,75,M,28.4,,,COPD,151_3p2_Al_mc_AKGC417L,3p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+330,151,75,M,28.4,,,COPD,151_3p2_Ar_mc_AKGC417L,3p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+331,151,75,M,28.4,,,COPD,151_3p2_Lr_mc_AKGC417L,3p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+332,151,75,M,28.4,,,COPD,151_3p2_Pl_mc_AKGC417L,3p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+333,151,75,M,28.4,,,COPD,151_3p2_Pr_mc_AKGC417L,3p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+334,151,75,M,28.4,,,COPD,151_3p2_Tc_mc_AKGC417L,3p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+335,151,75,M,28.4,,,COPD,151_3p3_Ll_mc_AKGC417L,3p3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+336,152,16,M,,70,183,Healthy,152_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+337,153,3,M,,16.7,103,Healthy,153_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+338,154,65,M,28.1,,,COPD,154_1b3_Al_mc_AKGC417L,1b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+339,154,65,M,28.1,,,COPD,154_1b3_Ar_mc_AKGC417L,1b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+340,154,65,M,28.1,,,COPD,154_1b3_Ll_mc_AKGC417L,1b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+341,154,65,M,28.1,,,COPD,154_1b3_Lr_mc_AKGC417L,1b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+342,154,65,M,28.1,,,COPD,154_1b3_Pl_mc_AKGC417L,1b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+343,154,65,M,28.1,,,COPD,154_1b3_Pr_mc_AKGC417L,1b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+344,154,65,M,28.1,,,COPD,154_1b3_Tc_mc_AKGC417L,1b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+345,154,65,M,28.1,,,COPD,154_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+346,154,65,M,28.1,,,COPD,154_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+347,154,65,M,28.1,,,COPD,154_2b4_Ll_mc_AKGC417L,2b4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+348,154,65,M,28.1,,,COPD,154_2b4_Lr_mc_AKGC417L,2b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+349,154,65,M,28.1,,,COPD,154_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+350,154,65,M,28.1,,,COPD,154_2b4_Pr_mc_AKGC417L,2b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+351,154,65,M,28.1,,,COPD,154_2b4_Tc_mc_AKGC417L,2b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+352,154,65,M,28.1,,,COPD,154_3b3_Al_mc_AKGC417L,3b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+353,154,65,M,28.1,,,COPD,154_3b3_Ar_mc_AKGC417L,3b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+354,154,65,M,28.1,,,COPD,154_3b3_Ll_mc_AKGC417L,3b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+355,154,65,M,28.1,,,COPD,154_4b4_Al_mc_AKGC417L,4b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+356,154,65,M,28.1,,,COPD,154_4b4_Ar_mc_AKGC417L,4b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+357,154,65,M,28.1,,,COPD,154_4b4_Ll_mc_AKGC417L,4b4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+358,154,65,M,28.1,,,COPD,154_4b4_Lr_mc_AKGC417L,4b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+359,154,65,M,28.1,,,COPD,154_4b4_Pl_mc_AKGC417L,4b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+360,154,65,M,28.1,,,COPD,154_4b4_Pr_mc_AKGC417L,4b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+361,155,69,M,26,,,COPD,155_2b1_Al_mc_LittC2SE,2b1,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+362,156,80,M,22.9,,,COPD,156_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+363,156,80,M,22.9,,,COPD,156_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+364,156,80,M,22.9,,,COPD,156_2b3_Ll_mc_AKGC417L,2b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+365,156,80,M,22.9,,,COPD,156_2b3_Lr_mc_AKGC417L,2b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+366,156,80,M,22.9,,,COPD,156_2b3_Pl_mc_AKGC417L,2b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+367,156,80,M,22.9,,,COPD,156_2b3_Pr_mc_AKGC417L,2b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+368,156,80,M,22.9,,,COPD,156_5b3_Al_mc_AKGC417L,5b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+369,156,80,M,22.9,,,COPD,156_5b3_Ar_mc_AKGC417L,5b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+370,156,80,M,22.9,,,COPD,156_5b3_Ll_mc_AKGC417L,5b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+371,156,80,M,22.9,,,COPD,156_5b3_Lr_mc_AKGC417L,5b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+372,156,80,M,22.9,,,COPD,156_5b3_Pl_mc_AKGC417L,5b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+373,156,80,M,22.9,,,COPD,156_5b3_Pr_mc_AKGC417L,5b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+374,156,80,M,22.9,,,COPD,156_8b3_Al_mc_AKGC417L,8b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+375,156,80,M,22.9,,,COPD,156_8b3_Ar_mc_AKGC417L,8b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+376,156,80,M,22.9,,,COPD,156_8b3_Ll_mc_AKGC417L,8b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+377,156,80,M,22.9,,,COPD,156_8b3_Lr_mc_AKGC417L,8b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+378,156,80,M,22.9,,,COPD,156_8b3_Pl_mc_AKGC417L,8b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+379,157,62,M,53.5,,,COPD,157_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+380,157,62,M,53.5,,,COPD,157_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+381,157,62,M,53.5,,,COPD,157_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+382,157,62,M,53.5,,,COPD,157_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+383,157,62,M,53.5,,,COPD,157_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+384,158,63,M,16.5,,,COPD,158_1b3_Ar_mc_LittC2SE,1b3,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+385,158,63,M,16.5,,,COPD,158_1p2_Al_mc_AKGC417L,1p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+386,158,63,M,16.5,,,COPD,158_1p2_Ar_mc_AKGC417L,1p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+387,158,63,M,16.5,,,COPD,158_1p2_Ll_mc_AKGC417L,1p2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+388,158,63,M,16.5,,,COPD,158_1p2_Lr_mc_AKGC417L,1p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+389,158,63,M,16.5,,,COPD,158_1p2_Pl_mc_AKGC417L,1p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+390,158,63,M,16.5,,,COPD,158_1p2_Pr_mc_AKGC417L,1p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+391,158,63,M,16.5,,,COPD,158_1p2_Tc_mc_AKGC417L,1p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+392,158,63,M,16.5,,,COPD,158_1p3_Al_mc_AKGC417L,1p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+393,158,63,M,16.5,,,COPD,158_1p3_Ar_mc_AKGC417L,1p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+394,158,63,M,16.5,,,COPD,158_1p3_Ll_mc_AKGC417L,1p3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+395,158,63,M,16.5,,,COPD,158_1p3_Lr_mc_AKGC417L,1p3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+396,158,63,M,16.5,,,COPD,158_1p3_Pl_mc_AKGC417L,1p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+397,158,63,M,16.5,,,COPD,158_1p3_Pr_mc_AKGC417L,1p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+398,158,63,M,16.5,,,COPD,158_1p3_Tc_mc_AKGC417L,1p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+399,158,63,M,16.5,,,COPD,158_1p4_Al_mc_AKGC417L,1p4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+400,158,63,M,16.5,,,COPD,158_1p4_Ar_mc_AKGC417L,1p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+401,158,63,M,16.5,,,COPD,158_1p4_Lr_mc_AKGC417L,1p4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+402,158,63,M,16.5,,,COPD,158_1p4_Pl_mc_AKGC417L,1p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+403,158,63,M,16.5,,,COPD,158_1p4_Pr_mc_AKGC417L,1p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+404,158,63,M,16.5,,,COPD,158_1p4_Tc_mc_AKGC417L,1p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+405,158,63,M,16.5,,,COPD,158_2p2_Ar_mc_AKGC417L,2p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+406,158,63,M,16.5,,,COPD,158_2p3_Lr_mc_AKGC417L,2p3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+407,158,63,M,16.5,,,COPD,158_2p3_Tc_mc_AKGC417L,2p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+408,159,0.83,F,,11,80,Healthy,159_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+409,159,0.83,F,,11,80,Healthy,159_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+410,159,0.83,F,,11,80,Healthy,159_1b1_Ll_sc_Meditron,1b1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+411,159,0.83,F,,11,80,Healthy,159_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+412,160,74,M,27.4,,,COPD,160_1b2_Al_mc_AKGC417L,1b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+413,160,74,M,27.4,,,COPD,160_1b2_Ar_mc_AKGC417L,1b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+414,160,74,M,27.4,,,COPD,160_1b2_Lr_mc_AKGC417L,1b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+415,160,74,M,27.4,,,COPD,160_1b2_Pl_mc_AKGC417L,1b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+416,160,74,M,27.4,,,COPD,160_1b2_Pr_mc_AKGC417L,1b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+417,160,74,M,27.4,,,COPD,160_1b2_Tc_mc_AKGC417L,1b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+418,160,74,M,27.4,,,COPD,160_1b3_Al_mc_AKGC417L,1b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+419,160,74,M,27.4,,,COPD,160_1b3_Ar_mc_AKGC417L,1b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+420,160,74,M,27.4,,,COPD,160_1b3_Lr_mc_AKGC417L,1b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+421,160,74,M,27.4,,,COPD,160_1b3_Pl_mc_AKGC417L,1b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+422,160,74,M,27.4,,,COPD,160_1b3_Pr_mc_AKGC417L,1b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+423,160,74,M,27.4,,,COPD,160_1b3_Tc_mc_AKGC417L,1b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+424,160,74,M,27.4,,,COPD,160_1b4_Al_mc_AKGC417L,1b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+425,160,74,M,27.4,,,COPD,160_1b4_Ar_mc_AKGC417L,1b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+426,160,74,M,27.4,,,COPD,160_1b4_Lr_mc_AKGC417L,1b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+427,160,74,M,27.4,,,COPD,160_1b4_Pl_mc_AKGC417L,1b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+428,160,74,M,27.4,,,COPD,160_1b4_Pr_mc_AKGC417L,1b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+429,160,74,M,27.4,,,COPD,160_1b4_Tc_mc_AKGC417L,1b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+430,160,74,M,27.4,,,COPD,160_2b3_Lr_mc_AKGC417L,2b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+431,160,74,M,27.4,,,COPD,160_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+432,160,74,M,27.4,,,COPD,160_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+433,160,74,M,27.4,,,COPD,160_2b4_Pr_mc_AKGC417L,2b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+434,160,74,M,27.4,,,COPD,160_2b4_Tc_mc_AKGC417L,2b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+435,161,2,F,,12,85,Bronchiolitis,161_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+436,161,2,F,,12,85,Bronchiolitis,161_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+437,162,67,F,24.9,,,COPD,162_1b2_Al_mc_AKGC417L,1b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+438,162,67,F,24.9,,,COPD,162_1b2_Ar_mc_AKGC417L,1b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+439,162,67,F,24.9,,,COPD,162_1b2_Ll_mc_AKGC417L,1b2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+440,162,67,F,24.9,,,COPD,162_1b2_Lr_mc_AKGC417L,1b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+441,162,67,F,24.9,,,COPD,162_1b2_Pl_mc_AKGC417L,1b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+442,162,67,F,24.9,,,COPD,162_1b2_Pr_mc_AKGC417L,1b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+443,162,67,F,24.9,,,COPD,162_1b2_Tc_mc_AKGC417L,1b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+444,162,67,F,24.9,,,COPD,162_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+445,162,67,F,24.9,,,COPD,162_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+446,162,67,F,24.9,,,COPD,162_2b2_Pl_mc_AKGC417L,2b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+447,162,67,F,24.9,,,COPD,162_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+448,162,67,F,24.9,,,COPD,162_2b2_Tc_mc_AKGC417L,2b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+449,162,67,F,24.9,,,COPD,162_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+450,162,67,F,24.9,,,COPD,162_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+451,162,67,F,24.9,,,COPD,162_2b3_Lr_mc_AKGC417L,2b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+452,162,67,F,24.9,,,COPD,162_2b3_Pl_mc_AKGC417L,2b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+453,162,67,F,24.9,,,COPD,162_2b3_Pr_mc_AKGC417L,2b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+454,162,67,F,24.9,,,COPD,162_2b3_Tc_mc_AKGC417L,2b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+455,162,67,F,24.9,,,COPD,162_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+456,162,67,F,24.9,,,COPD,162_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+457,162,67,F,24.9,,,COPD,162_2b4_Lr_mc_AKGC417L,2b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+458,162,67,F,24.9,,,COPD,162_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+459,162,67,F,24.9,,,COPD,162_2b4_Pr_mc_AKGC417L,2b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+460,162,67,F,24.9,,,COPD,162_2b4_Tc_mc_AKGC417L,2b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+461,163,62,M,28.3,,,COPD,163_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+462,163,62,M,28.3,,,COPD,163_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+463,163,62,M,28.3,,,COPD,163_2b2_Ll_mc_AKGC417L,2b2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+464,163,62,M,28.3,,,COPD,163_2b2_Lr_mc_AKGC417L,2b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+465,163,62,M,28.3,,,COPD,163_2b2_Pl_mc_AKGC417L,2b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+466,163,62,M,28.3,,,COPD,163_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+467,163,62,M,28.3,,,COPD,163_2b2_Tc_mc_AKGC417L,2b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+468,163,62,M,28.3,,,COPD,163_8b3_Al_mc_AKGC417L,8b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+469,163,62,M,28.3,,,COPD,163_8b3_Ar_mc_AKGC417L,8b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+470,163,62,M,28.3,,,COPD,163_8b3_Ll_mc_AKGC417L,8b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+471,163,62,M,28.3,,,COPD,163_8b3_Lr_mc_AKGC417L,8b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+472,163,62,M,28.3,,,COPD,163_8b3_Pl_mc_AKGC417L,8b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+473,163,62,M,28.3,,,COPD,163_8b3_Pr_mc_AKGC417L,8b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+474,164,1,M,,13,,URTI,164_1b1_Ll_sc_Meditron,1b1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+475,165,2,F,,12.7,97,URTI,165_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+476,165,2,F,,12.7,97,URTI,165_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+477,165,2,F,,12.7,97,URTI,165_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+478,166,71,M,25.06,,,COPD,166_1p1_Al_sc_Meditron,1p1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+479,166,71,M,25.06,,,COPD,166_1p1_Ar_sc_Meditron,1p1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+480,166,71,M,25.06,,,COPD,166_1p1_Ll_sc_Meditron,1p1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+481,166,71,M,25.06,,,COPD,166_1p1_Pl_sc_Meditron,1p1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+482,166,71,M,25.06,,,COPD,166_1p1_Pr_sc_Meditron,1p1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+483,167,1,F,,11.5,86.4,Bronchiolitis,167_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+484,167,1,F,,11.5,86.4,Bronchiolitis,167_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+485,168,19,F,17.35,,,Bronchiectasis,168_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+486,169,50,F,28.81,,,Bronchiectasis,169_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+487,169,50,F,28.81,,,Bronchiectasis,169_1b2_Ll_sc_Meditron,1b2,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+488,170,79,M,22.6,,,COPD,170_1b2_Al_mc_AKGC417L,1b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+489,170,79,M,22.6,,,COPD,170_1b2_Ar_mc_AKGC417L,1b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+490,170,79,M,22.6,,,COPD,170_1b2_Lr_mc_AKGC417L,1b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+491,170,79,M,22.6,,,COPD,170_1b2_Pl_mc_AKGC417L,1b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+492,170,79,M,22.6,,,COPD,170_1b2_Pr_mc_AKGC417L,1b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+493,170,79,M,22.6,,,COPD,170_1b2_Tc_mc_AKGC417L,1b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+494,170,79,M,22.6,,,COPD,170_1b3_Al_mc_AKGC417L,1b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+495,170,79,M,22.6,,,COPD,170_1b3_Ar_mc_AKGC417L,1b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+496,170,79,M,22.6,,,COPD,170_1b3_Ll_mc_AKGC417L,1b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+497,170,79,M,22.6,,,COPD,170_1b3_Lr_mc_AKGC417L,1b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+498,170,79,M,22.6,,,COPD,170_1b3_Pl_mc_AKGC417L,1b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+499,170,79,M,22.6,,,COPD,170_1b3_Pr_mc_AKGC417L,1b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+500,170,79,M,22.6,,,COPD,170_1b3_Tc_mc_AKGC417L,1b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+501,170,79,M,22.6,,,COPD,170_1b4_Al_mc_AKGC417L,1b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+502,170,79,M,22.6,,,COPD,170_1b4_Ar_mc_AKGC417L,1b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+503,170,79,M,22.6,,,COPD,170_1b4_Lr_mc_AKGC417L,1b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+504,170,79,M,22.6,,,COPD,170_1b4_Pl_mc_AKGC417L,1b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+505,170,79,M,22.6,,,COPD,170_1b4_Pr_mc_AKGC417L,1b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+506,170,79,M,22.6,,,COPD,170_1b4_Tc_mc_AKGC417L,1b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+507,170,79,M,22.6,,,COPD,170_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+508,170,79,M,22.6,,,COPD,170_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+509,170,79,M,22.6,,,COPD,170_2b2_Lr_mc_AKGC417L,2b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+510,170,79,M,22.6,,,COPD,170_2b2_Pl_mc_AKGC417L,2b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+511,170,79,M,22.6,,,COPD,170_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+512,170,79,M,22.6,,,COPD,170_2b2_Tc_mc_AKGC417L,2b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+513,171,9,M,,32,133,Healthy,171_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+514,172,73,M,29.3,,,COPD,172_1b3_Al_mc_AKGC417L,1b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+515,172,73,M,29.3,,,COPD,172_1b3_Ar_mc_AKGC417L,1b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+516,172,73,M,29.3,,,COPD,172_1b3_Ll_mc_AKGC417L,1b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+517,172,73,M,29.3,,,COPD,172_1b3_Lr_mc_AKGC417L,1b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+518,172,73,M,29.3,,,COPD,172_1b3_Pl_mc_AKGC417L,1b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+519,172,73,M,29.3,,,COPD,172_1b3_Pr_mc_AKGC417L,1b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+520,172,73,M,29.3,,,COPD,172_1b3_Tc_mc_AKGC417L,1b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+521,172,73,M,29.3,,,COPD,172_1b4_Al_mc_AKGC417L,1b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+522,172,73,M,29.3,,,COPD,172_1b4_Ar_mc_AKGC417L,1b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+523,172,73,M,29.3,,,COPD,172_1b4_Ll_mc_AKGC417L,1b4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+524,172,73,M,29.3,,,COPD,172_1b4_Lr_mc_AKGC417L,1b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+525,172,73,M,29.3,,,COPD,172_1b4_Pl_mc_AKGC417L,1b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+526,172,73,M,29.3,,,COPD,172_1b4_Pr_mc_AKGC417L,1b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+527,172,73,M,29.3,,,COPD,172_1b4_Tc_mc_AKGC417L,1b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+528,172,73,M,29.3,,,COPD,172_1b5_Al_mc_AKGC417L,1b5,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+529,172,73,M,29.3,,,COPD,172_1b5_Ar_mc_AKGC417L,1b5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+530,172,73,M,29.3,,,COPD,172_1b5_Ll_mc_AKGC417L,1b5,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+531,172,73,M,29.3,,,COPD,172_1b5_Lr_mc_AKGC417L,1b5,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+532,172,73,M,29.3,,,COPD,172_1b5_Pl_mc_AKGC417L,1b5,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+533,172,73,M,29.3,,,COPD,172_1b5_Pr_mc_AKGC417L,1b5,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+534,172,73,M,29.3,,,COPD,172_1b5_Tc_mc_AKGC417L,1b5,Trachea,simultaneous/multichannel,AKG C417L Microphone
+535,172,73,M,29.3,,,COPD,172_2b5_Al_mc_AKGC417L,2b5,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+536,172,73,M,29.3,,,COPD,172_2b5_Ar_mc_AKGC417L,2b5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+537,172,73,M,29.3,,,COPD,172_2b5_Lr_mc_AKGC417L,2b5,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+538,172,73,M,29.3,,,COPD,172_2b5_Pl_mc_AKGC417L,2b5,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+539,172,73,M,29.3,,,COPD,172_2b5_Pr_mc_AKGC417L,2b5,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+540,172,73,M,29.3,,,COPD,172_2b5_Tc_mc_AKGC417L,2b5,Trachea,simultaneous/multichannel,AKG C417L Microphone
+541,173,3,M,,17.3,,Bronchiolitis,173_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+542,174,68,M,26.4,,,COPD,174_1p2_Ar_mc_AKGC417L,1p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+543,174,68,M,26.4,,,COPD,174_1p2_Ll_mc_AKGC417L,1p2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+544,174,68,M,26.4,,,COPD,174_1p2_Lr_mc_AKGC417L,1p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+545,174,68,M,26.4,,,COPD,174_1p2_Pl_mc_AKGC417L,1p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+546,174,68,M,26.4,,,COPD,174_1p2_Pr_mc_AKGC417L,1p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+547,174,68,M,26.4,,,COPD,174_1p2_Tc_mc_AKGC417L,1p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+548,174,68,M,26.4,,,COPD,174_1p3_Ar_mc_AKGC417L,1p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+549,174,68,M,26.4,,,COPD,174_1p3_Ll_mc_AKGC417L,1p3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+550,174,68,M,26.4,,,COPD,174_1p3_Lr_mc_AKGC417L,1p3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+551,174,68,M,26.4,,,COPD,174_1p3_Pl_mc_AKGC417L,1p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+552,174,68,M,26.4,,,COPD,174_1p3_Pr_mc_AKGC417L,1p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+553,174,68,M,26.4,,,COPD,174_1p3_Tc_mc_AKGC417L,1p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+554,174,68,M,26.4,,,COPD,174_1p4_Ar_mc_AKGC417L,1p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+555,174,68,M,26.4,,,COPD,174_1p4_Ll_mc_AKGC417L,1p4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+556,174,68,M,26.4,,,COPD,174_1p4_Lr_mc_AKGC417L,1p4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+557,174,68,M,26.4,,,COPD,174_1p4_Pl_mc_AKGC417L,1p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+558,174,68,M,26.4,,,COPD,174_1p4_Pr_mc_AKGC417L,1p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+559,174,68,M,26.4,,,COPD,174_1p4_Tc_mc_AKGC417L,1p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+560,174,68,M,26.4,,,COPD,174_2p3_Al_mc_AKGC417L,2p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+561,174,68,M,26.4,,,COPD,174_2p3_Ar_mc_AKGC417L,2p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+562,174,68,M,26.4,,,COPD,174_2p3_Pl_mc_AKGC417L,2p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+563,174,68,M,26.4,,,COPD,174_2p3_Pr_mc_AKGC417L,2p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+564,174,68,M,26.4,,,COPD,174_2p3_Tc_mc_AKGC417L,2p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+565,175,63,M,28.34,,,COPD,175_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+566,175,63,M,28.34,,,COPD,175_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+567,175,63,M,28.34,,,COPD,175_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+568,175,63,M,28.34,,,COPD,175_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+569,175,63,M,28.34,,,COPD,175_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+570,175,63,M,28.34,,,COPD,175_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+571,176,65,M,30.1,,,COPD,176_1b3_Al_mc_AKGC417L,1b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+572,176,65,M,30.1,,,COPD,176_1b3_Ar_mc_AKGC417L,1b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+573,176,65,M,30.1,,,COPD,176_1b3_Ll_mc_AKGC417L,1b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+574,176,65,M,30.1,,,COPD,176_1b3_Lr_mc_AKGC417L,1b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+575,176,65,M,30.1,,,COPD,176_1b3_Pl_mc_AKGC417L,1b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+576,176,65,M,30.1,,,COPD,176_1b3_Pr_mc_AKGC417L,1b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+577,176,65,M,30.1,,,COPD,176_1b3_Tc_mc_AKGC417L,1b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+578,176,65,M,30.1,,,COPD,176_1b4_Al_mc_AKGC417L,1b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+579,176,65,M,30.1,,,COPD,176_1b4_Ar_mc_AKGC417L,1b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+580,176,65,M,30.1,,,COPD,176_1b4_Ll_mc_AKGC417L,1b4,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+581,176,65,M,30.1,,,COPD,176_1b4_Lr_mc_AKGC417L,1b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+582,176,65,M,30.1,,,COPD,176_1b4_Pl_mc_AKGC417L,1b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+583,176,65,M,30.1,,,COPD,176_1b4_Pr_mc_AKGC417L,1b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+584,176,65,M,30.1,,,COPD,176_1b4_Tc_mc_AKGC417L,1b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+585,176,65,M,30.1,,,COPD,176_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+586,176,65,M,30.1,,,COPD,176_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+587,176,65,M,30.1,,,COPD,176_2b3_Ll_mc_AKGC417L,2b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+588,176,65,M,30.1,,,COPD,176_2b3_Lr_mc_AKGC417L,2b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+589,176,65,M,30.1,,,COPD,176_2b3_Pl_mc_AKGC417L,2b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+590,176,65,M,30.1,,,COPD,176_2b3_Pr_mc_AKGC417L,2b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+591,176,65,M,30.1,,,COPD,176_2b3_Tc_mc_AKGC417L,2b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+592,177,56,M,22.1,,,COPD,177_1b2_Al_mc_AKGC417L,1b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+593,177,56,M,22.1,,,COPD,177_1b2_Ar_mc_AKGC417L,1b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+594,177,56,M,22.1,,,COPD,177_1b2_Lr_mc_AKGC417L,1b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+595,177,56,M,22.1,,,COPD,177_1b2_Pl_mc_AKGC417L,1b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+596,177,56,M,22.1,,,COPD,177_1b2_Pr_mc_AKGC417L,1b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+597,177,56,M,22.1,,,COPD,177_1b2_Tc_mc_AKGC417L,1b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+598,177,56,M,22.1,,,COPD,177_1b4_Al_mc_AKGC417L,1b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+599,177,56,M,22.1,,,COPD,177_1b4_Ar_mc_AKGC417L,1b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+600,177,56,M,22.1,,,COPD,177_1b4_Lr_mc_AKGC417L,1b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+601,177,56,M,22.1,,,COPD,177_1b4_Pl_mc_AKGC417L,1b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+602,177,56,M,22.1,,,COPD,177_1b4_Pr_mc_AKGC417L,1b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+603,177,56,M,22.1,,,COPD,177_1b4_Tc_mc_AKGC417L,1b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+604,177,56,M,22.1,,,COPD,177_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+605,177,56,M,22.1,,,COPD,177_2b4_Lr_mc_AKGC417L,2b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+606,177,56,M,22.1,,,COPD,177_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+607,177,56,M,22.1,,,COPD,177_2b4_Pr_mc_AKGC417L,2b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+608,177,56,M,22.1,,,COPD,177_2b4_Tc_mc_AKGC417L,2b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+609,178,58,M,30.1,,,COPD,178_1b2_Al_mc_AKGC417L,1b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+610,178,58,M,30.1,,,COPD,178_1b2_Ar_mc_AKGC417L,1b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+611,178,58,M,30.1,,,COPD,178_1b2_Lr_mc_AKGC417L,1b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+612,178,58,M,30.1,,,COPD,178_1b2_Pl_mc_AKGC417L,1b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+613,178,58,M,30.1,,,COPD,178_1b2_Pr_mc_AKGC417L,1b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+614,178,58,M,30.1,,,COPD,178_1b2_Tc_mc_AKGC417L,1b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+615,178,58,M,30.1,,,COPD,178_1b3_Al_mc_AKGC417L,1b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+616,178,58,M,30.1,,,COPD,178_1b3_Ar_mc_AKGC417L,1b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+617,178,58,M,30.1,,,COPD,178_1b3_Lr_mc_AKGC417L,1b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+618,178,58,M,30.1,,,COPD,178_1b3_Pl_mc_AKGC417L,1b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+619,178,58,M,30.1,,,COPD,178_1b3_Pr_mc_AKGC417L,1b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+620,178,58,M,30.1,,,COPD,178_1b3_Tc_mc_AKGC417L,1b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+621,178,58,M,30.1,,,COPD,178_1b6_Al_mc_AKGC417L,1b6,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+622,178,58,M,30.1,,,COPD,178_1b6_Ar_mc_AKGC417L,1b6,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+623,178,58,M,30.1,,,COPD,178_1b6_Ll_mc_AKGC417L,1b6,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+624,178,58,M,30.1,,,COPD,178_1b6_Lr_mc_AKGC417L,1b6,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+625,178,58,M,30.1,,,COPD,178_1b6_Pl_mc_AKGC417L,1b6,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+626,178,58,M,30.1,,,COPD,178_1b6_Pr_mc_AKGC417L,1b6,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+627,178,58,M,30.1,,,COPD,178_1b6_Tc_mc_AKGC417L,1b6,Trachea,simultaneous/multichannel,AKG C417L Microphone
+628,178,58,M,30.1,,,COPD,178_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+629,178,58,M,30.1,,,COPD,178_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+630,178,58,M,30.1,,,COPD,178_2b2_Lr_mc_AKGC417L,2b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+631,178,58,M,30.1,,,COPD,178_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+632,178,58,M,30.1,,,COPD,178_2b2_Tc_mc_AKGC417L,2b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+633,179,10,F,,15,104,Healthy,179_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+634,179,10,F,,15,104,Healthy,179_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+635,180,93,M,29.03,,,COPD,180_1b4_Al_mc_AKGC417L,1b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+636,180,93,M,29.03,,,COPD,180_1b4_Ar_mc_AKGC417L,1b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+637,180,93,M,29.03,,,COPD,180_1b4_Lr_mc_AKGC417L,1b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+638,180,93,M,29.03,,,COPD,180_1b4_Pl_mc_AKGC417L,1b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+639,180,93,M,29.03,,,COPD,180_1b4_Pr_mc_AKGC417L,1b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+640,181,65,M,26.4,,,COPD,181_1b1_Ar_mc_LittC2SE,1b1,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+641,181,65,M,26.4,,,COPD,181_1b1_Tc_mc_LittC2SE,1b1,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+642,181,65,M,26.4,,,COPD,181_1b2_Ar_mc_LittC2SE,1b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+643,181,65,M,26.4,,,COPD,181_1b3_Tc_mc_LittC2SE,1b3,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+644,182,11,M,,33,136,Healthy,182_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+645,183,14,F,,,,Healthy,183_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+646,183,14,F,,,,Healthy,183_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+647,184,2,F,,15,100,Healthy,184_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+648,185,75,M,27.7,,,COPD,185_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+649,185,75,M,27.7,,,COPD,185_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+650,185,75,M,27.7,,,COPD,185_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+651,185,75,M,27.7,,,COPD,185_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+652,185,75,M,27.7,,,COPD,185_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+653,185,75,M,27.7,,,COPD,185_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+654,186,71,M,30,,,COPD,186_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+655,186,71,M,30,,,COPD,186_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+656,186,71,M,30,,,COPD,186_2b2_Lr_mc_AKGC417L,2b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+657,186,71,M,30,,,COPD,186_2b2_Pl_mc_AKGC417L,2b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+658,186,71,M,30,,,COPD,186_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+659,186,71,M,30,,,COPD,186_2b2_Tc_mc_AKGC417L,2b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+660,186,71,M,30,,,COPD,186_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+661,186,71,M,30,,,COPD,186_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+662,186,71,M,30,,,COPD,186_2b3_Lr_mc_AKGC417L,2b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+663,186,71,M,30,,,COPD,186_2b3_Pl_mc_AKGC417L,2b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+664,186,71,M,30,,,COPD,186_2b3_Pr_mc_AKGC417L,2b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+665,186,71,M,30,,,COPD,186_2b3_Tc_mc_AKGC417L,2b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+666,186,71,M,30,,,COPD,186_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+667,186,71,M,30,,,COPD,186_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+668,186,71,M,30,,,COPD,186_2b4_Lr_mc_AKGC417L,2b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+669,186,71,M,30,,,COPD,186_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+670,186,71,M,30,,,COPD,186_2b4_Pr_mc_AKGC417L,2b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+671,186,71,M,30,,,COPD,186_2b4_Tc_mc_AKGC417L,2b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+672,186,71,M,30,,,COPD,186_3b3_Al_mc_AKGC417L,3b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+673,186,71,M,30,,,COPD,186_3b3_Ar_mc_AKGC417L,3b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+674,186,71,M,30,,,COPD,186_3b3_Lr_mc_AKGC417L,3b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+675,186,71,M,30,,,COPD,186_3b3_Pl_mc_AKGC417L,3b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+676,186,71,M,30,,,COPD,186_3b3_Pr_mc_AKGC417L,3b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+677,186,71,M,30,,,COPD,186_3b3_Tc_mc_AKGC417L,3b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+678,187,0.5,F,,8.26,71,Healthy,187_1b1_Ll_sc_Meditron,1b1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+679,188,3,M,,16,100,URTI,188_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+680,188,3,M,,16,100,URTI,188_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+681,188,3,M,,16,100,URTI,188_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+682,188,3,M,,16,100,URTI,188_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+683,189,75,F,26.2,,,COPD,189_1b2_Lr_mc_LittC2SE,1b2,Lateral right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+684,190,3,F,,,,URTI,190_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+685,191,74,F,36,,,Pneumonia,191_2b1_Pl_mc_LittC2SE,2b1,Posterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+686,191,74,F,36,,,Pneumonia,191_2b1_Pr_mc_LittC2SE,2b1,Posterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+687,191,74,F,36,,,Pneumonia,191_2b2_Tc_mc_LittC2SE,2b2,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+688,192,69,M,28,,,COPD,192_2b1_Al_mc_LittC2SE,2b1,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+689,192,69,M,28,,,COPD,192_2b1_Ar_mc_LittC2SE,2b1,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+690,192,69,M,28,,,COPD,192_2b2_Al_mc_LittC2SE,2b2,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+691,192,69,M,28,,,COPD,192_2b2_Ar_mc_LittC2SE,2b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+692,192,69,M,28,,,COPD,192_2b3_Al_mc_LittC2SE,2b3,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+693,192,69,M,28,,,COPD,192_2b3_Ar_mc_LittC2SE,2b3,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+694,193,77,M,26.3,,,COPD,193_1b2_Al_mc_AKGC417L,1b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+695,193,77,M,26.3,,,COPD,193_1b2_Ar_mc_AKGC417L,1b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+696,193,77,M,26.3,,,COPD,193_1b2_Ll_mc_AKGC417L,1b2,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+697,193,77,M,26.3,,,COPD,193_1b2_Pl_mc_AKGC417L,1b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+698,193,77,M,26.3,,,COPD,193_1b2_Pr_mc_AKGC417L,1b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+699,193,77,M,26.3,,,COPD,193_1b2_Tc_mc_AKGC417L,1b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+700,193,77,M,26.3,,,COPD,193_1b4_Lr_mc_AKGC417L,1b4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+701,193,77,M,26.3,,,COPD,193_7b3_Al_mc_AKGC417L,7b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+702,193,77,M,26.3,,,COPD,193_7b3_Ar_mc_AKGC417L,7b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+703,193,77,M,26.3,,,COPD,193_7b3_Ll_mc_AKGC417L,7b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+704,193,77,M,26.3,,,COPD,193_7b3_Lr_mc_AKGC417L,7b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+705,193,77,M,26.3,,,COPD,193_7b3_Pl_mc_AKGC417L,7b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+706,193,77,M,26.3,,,COPD,193_7b3_Pr_mc_AKGC417L,7b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+707,193,77,M,26.3,,,COPD,193_7b3_Tc_mc_AKGC417L,7b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+708,194,2,M,,12.8,86,Healthy,194_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+709,194,2,M,,12.8,86,Healthy,194_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+710,195,67,M,29.41,,,COPD,195_1b1_Al_sc_Litt3200,1b1,Anterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+711,195,67,M,29.41,,,COPD,195_1b1_Ar_sc_Litt3200,1b1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+712,195,67,M,29.41,,,COPD,195_1b1_Ll_sc_Litt3200,1b1,Lateral left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+713,195,67,M,29.41,,,COPD,195_1b1_Lr_sc_Litt3200,1b1,Lateral right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+714,195,67,M,29.41,,,COPD,195_1b1_Pl_sc_Litt3200,1b1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+715,195,67,M,29.41,,,COPD,195_1b1_Pr_sc_Litt3200,1b1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+716,196,21,F,25.5,,,Bronchiectasis,196_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+717,197,16,F,,,,URTI,197_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+718,197,16,F,,,,URTI,197_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+719,198,71,M,18.6,,,COPD,198_1b5_Al_mc_AKGC417L,1b5,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+720,198,71,M,18.6,,,COPD,198_1b5_Ar_mc_AKGC417L,1b5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+721,198,71,M,18.6,,,COPD,198_1b5_Ll_mc_AKGC417L,1b5,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+722,198,71,M,18.6,,,COPD,198_1b5_Lr_mc_AKGC417L,1b5,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+723,198,71,M,18.6,,,COPD,198_1b5_Pl_mc_AKGC417L,1b5,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+724,198,71,M,18.6,,,COPD,198_1b5_Pr_mc_AKGC417L,1b5,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+725,198,71,M,18.6,,,COPD,198_1b5_Tc_mc_AKGC417L,1b5,Trachea,simultaneous/multichannel,AKG C417L Microphone
+726,198,71,M,18.6,,,COPD,198_6p1_Al_mc_AKGC417L,6p1,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+727,198,71,M,18.6,,,COPD,198_6p1_Ar_mc_AKGC417L,6p1,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+728,198,71,M,18.6,,,COPD,198_6p1_Ll_mc_AKGC417L,6p1,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+729,198,71,M,18.6,,,COPD,198_6p1_Lr_mc_AKGC417L,6p1,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+730,198,71,M,18.6,,,COPD,198_6p1_Pl_mc_AKGC417L,6p1,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+731,198,71,M,18.6,,,COPD,198_6p1_Pr_mc_AKGC417L,6p1,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+732,198,71,M,18.6,,,COPD,198_6p1_Tc_mc_AKGC417L,6p1,Trachea,simultaneous/multichannel,AKG C417L Microphone
+733,199,71,M,20,,,COPD,199_2b1_Ll_mc_LittC2SE,2b1,Lateral left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+734,199,71,M,20,,,COPD,199_2b3_Ll_mc_LittC2SE,2b3,Lateral left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+735,200,72,F,27.8,,,COPD,200_2p2_Al_mc_AKGC417L,2p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+736,200,72,F,27.8,,,COPD,200_2p2_Ar_mc_AKGC417L,2p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+737,200,72,F,27.8,,,COPD,200_2p2_Lr_mc_AKGC417L,2p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+738,200,72,F,27.8,,,COPD,200_2p2_Pl_mc_AKGC417L,2p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+739,200,72,F,27.8,,,COPD,200_2p2_Pr_mc_AKGC417L,2p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+740,200,72,F,27.8,,,COPD,200_2p2_Tc_mc_AKGC417L,2p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+741,200,72,F,27.8,,,COPD,200_2p3_Al_mc_AKGC417L,2p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+742,200,72,F,27.8,,,COPD,200_2p3_Ar_mc_AKGC417L,2p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+743,200,72,F,27.8,,,COPD,200_2p3_Lr_mc_AKGC417L,2p3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+744,200,72,F,27.8,,,COPD,200_2p3_Pl_mc_AKGC417L,2p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+745,200,72,F,27.8,,,COPD,200_2p3_Pr_mc_AKGC417L,2p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+746,200,72,F,27.8,,,COPD,200_2p3_Tc_mc_AKGC417L,2p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+747,200,72,F,27.8,,,COPD,200_2p4_Al_mc_AKGC417L,2p4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+748,200,72,F,27.8,,,COPD,200_2p4_Ar_mc_AKGC417L,2p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+749,200,72,F,27.8,,,COPD,200_2p4_Lr_mc_AKGC417L,2p4,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+750,200,72,F,27.8,,,COPD,200_2p4_Pl_mc_AKGC417L,2p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+751,200,72,F,27.8,,,COPD,200_2p4_Pr_mc_AKGC417L,2p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+752,200,72,F,27.8,,,COPD,200_2p4_Tc_mc_AKGC417L,2p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+753,200,72,F,27.8,,,COPD,200_3p4_Al_mc_AKGC417L,3p4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+754,200,72,F,27.8,,,COPD,200_3p4_Ar_mc_AKGC417L,3p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+755,200,72,F,27.8,,,COPD,200_3p4_Pl_mc_AKGC417L,3p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+756,200,72,F,27.8,,,COPD,200_3p4_Pr_mc_AKGC417L,3p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+757,200,72,F,27.8,,,COPD,200_3p4_Tc_mc_AKGC417L,3p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+758,201,73,F,28.52,,,Bronchiectasis,201_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+759,201,73,F,28.52,,,Bronchiectasis,201_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+760,201,73,F,28.52,,,Bronchiectasis,201_1b2_Al_sc_Meditron,1b2,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+761,201,73,F,28.52,,,Bronchiectasis,201_1b2_Ar_sc_Meditron,1b2,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+762,201,73,F,28.52,,,Bronchiectasis,201_1b3_Al_sc_Meditron,1b3,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+763,201,73,F,28.52,,,Bronchiectasis,201_1b3_Ar_sc_Meditron,1b3,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+764,202,2,M,,11.84,87,Healthy,202_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+765,203,57,F,24,,,COPD,203_1p2_Al_mc_AKGC417L,1p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+766,203,57,F,24,,,COPD,203_1p2_Ar_mc_AKGC417L,1p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+767,203,57,F,24,,,COPD,203_1p2_Lr_mc_AKGC417L,1p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+768,203,57,F,24,,,COPD,203_1p2_Pl_mc_AKGC417L,1p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+769,203,57,F,24,,,COPD,203_1p2_Pr_mc_AKGC417L,1p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+770,203,57,F,24,,,COPD,203_1p2_Tc_mc_AKGC417L,1p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+771,203,57,F,24,,,COPD,203_1p3_Al_mc_AKGC417L,1p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+772,203,57,F,24,,,COPD,203_1p3_Ar_mc_AKGC417L,1p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+773,203,57,F,24,,,COPD,203_1p3_Pl_mc_AKGC417L,1p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+774,203,57,F,24,,,COPD,203_1p3_Pr_mc_AKGC417L,1p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+775,203,57,F,24,,,COPD,203_1p3_Tc_mc_AKGC417L,1p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+776,203,57,F,24,,,COPD,203_1p4_Al_mc_AKGC417L,1p4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+777,203,57,F,24,,,COPD,203_1p4_Ar_mc_AKGC417L,1p4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+778,203,57,F,24,,,COPD,203_1p4_Pl_mc_AKGC417L,1p4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+779,203,57,F,24,,,COPD,203_1p4_Pr_mc_AKGC417L,1p4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+780,203,57,F,24,,,COPD,203_1p4_Tc_mc_AKGC417L,1p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+781,203,57,F,24,,,COPD,203_2p3_Al_mc_AKGC417L,2p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+782,203,57,F,24,,,COPD,203_2p3_Ar_mc_AKGC417L,2p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+783,203,57,F,24,,,COPD,203_2p3_Pl_mc_AKGC417L,2p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+784,203,57,F,24,,,COPD,203_2p3_Pr_mc_AKGC417L,2p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+785,203,57,F,24,,,COPD,203_2p3_Tc_mc_AKGC417L,2p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+786,204,66,M,29.76,,,COPD,204_2b5_Al_mc_AKGC417L,2b5,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+787,204,66,M,29.76,,,COPD,204_2b5_Ar_mc_AKGC417L,2b5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+788,204,66,M,29.76,,,COPD,204_2b5_Ll_mc_AKGC417L,2b5,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+789,204,66,M,29.76,,,COPD,204_7p5_Al_mc_AKGC417L,7p5,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+790,204,66,M,29.76,,,COPD,204_7p5_Ar_mc_AKGC417L,7p5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+791,204,66,M,29.76,,,COPD,204_7p5_Ll_mc_AKGC417L,7p5,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+792,204,66,M,29.76,,,COPD,204_7p5_Lr_mc_AKGC417L,7p5,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+793,204,66,M,29.76,,,COPD,204_7p5_Pr_mc_AKGC417L,7p5,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+794,204,66,M,29.76,,,COPD,204_7p5_Tc_mc_AKGC417L,7p5,Trachea,simultaneous/multichannel,AKG C417L Microphone
+795,205,45,M,20.1,,,COPD,205_1b3_Al_mc_AKGC417L,1b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+796,205,45,M,20.1,,,COPD,205_1b3_Ar_mc_AKGC417L,1b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+797,205,45,M,20.1,,,COPD,205_1b3_Ll_mc_AKGC417L,1b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+798,205,45,M,20.1,,,COPD,205_1b3_Lr_mc_AKGC417L,1b3,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+799,205,45,M,20.1,,,COPD,205_1b3_Pl_mc_AKGC417L,1b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+800,205,45,M,20.1,,,COPD,205_1b3_Pr_mc_AKGC417L,1b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+801,205,45,M,20.1,,,COPD,205_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+802,205,45,M,20.1,,,COPD,205_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+803,205,45,M,20.1,,,COPD,205_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+804,205,45,M,20.1,,,COPD,205_2b3_Ll_mc_AKGC417L,2b3,Lateral left,simultaneous/multichannel,AKG C417L Microphone
+805,205,45,M,20.1,,,COPD,205_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+806,205,45,M,20.1,,,COPD,205_3b4_Al_mc_AKGC417L,3b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+807,205,45,M,20.1,,,COPD,205_3b4_Ar_mc_AKGC417L,3b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+808,205,45,M,20.1,,,COPD,205_3b4_Pl_mc_AKGC417L,3b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+809,205,45,M,20.1,,,COPD,205_3b4_Pr_mc_AKGC417L,3b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+810,205,45,M,20.1,,,COPD,205_4b2_Al_mc_AKGC417L,4b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+811,205,45,M,20.1,,,COPD,205_4b2_Ar_mc_AKGC417L,4b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+812,205,45,M,20.1,,,COPD,205_4b2_Lr_mc_AKGC417L,4b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+813,205,45,M,20.1,,,COPD,205_4b2_Pl_mc_AKGC417L,4b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+814,205,45,M,20.1,,,COPD,205_4b2_Pr_mc_AKGC417L,4b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+815,206,3,M,,13,92,Bronchiolitis,206_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+816,206,3,M,,13,92,Bronchiolitis,206_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+817,206,3,M,,13,92,Bronchiolitis,206_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+818,207,63,F,29.6,,,COPD,207_2b2_Al_mc_AKGC417L,2b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+819,207,63,F,29.6,,,COPD,207_2b2_Ar_mc_AKGC417L,2b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+820,207,63,F,29.6,,,COPD,207_2b2_Pl_mc_AKGC417L,2b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+821,207,63,F,29.6,,,COPD,207_2b2_Pr_mc_AKGC417L,2b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+822,207,63,F,29.6,,,COPD,207_2b2_Tc_mc_AKGC417L,2b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+823,207,63,F,29.6,,,COPD,207_2b3_Al_mc_AKGC417L,2b3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+824,207,63,F,29.6,,,COPD,207_2b3_Ar_mc_AKGC417L,2b3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+825,207,63,F,29.6,,,COPD,207_2b3_Pl_mc_AKGC417L,2b3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+826,207,63,F,29.6,,,COPD,207_2b3_Pr_mc_AKGC417L,2b3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+827,207,63,F,29.6,,,COPD,207_2b3_Tc_mc_AKGC417L,2b3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+828,207,63,F,29.6,,,COPD,207_2b4_Al_mc_AKGC417L,2b4,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+829,207,63,F,29.6,,,COPD,207_2b4_Ar_mc_AKGC417L,2b4,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+830,207,63,F,29.6,,,COPD,207_2b4_Pl_mc_AKGC417L,2b4,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+831,207,63,F,29.6,,,COPD,207_2b4_Pr_mc_AKGC417L,2b4,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+832,207,63,F,29.6,,,COPD,207_2b4_Tc_mc_AKGC417L,2b4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+833,207,63,F,29.6,,,COPD,207_3b2_Al_mc_AKGC417L,3b2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+834,207,63,F,29.6,,,COPD,207_3b2_Ar_mc_AKGC417L,3b2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+835,207,63,F,29.6,,,COPD,207_3b2_Lr_mc_AKGC417L,3b2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+836,207,63,F,29.6,,,COPD,207_3b2_Pl_mc_AKGC417L,3b2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+837,207,63,F,29.6,,,COPD,207_3b2_Pr_mc_AKGC417L,3b2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+838,207,63,F,29.6,,,COPD,207_3b2_Tc_mc_AKGC417L,3b2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+839,208,5,F,,24.1,117,Healthy,208_1b1_Ll_sc_Meditron,1b1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+840,209,14,F,,80,183,Healthy,209_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+841,210,1,F,,12.96,76,URTI,210_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+842,210,1,F,,12.96,76,URTI,210_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+843,211,70,F,31.1,,,COPD,211_1p2_Ar_mc_AKGC417L,1p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+844,211,70,F,31.1,,,COPD,211_1p2_Pl_mc_AKGC417L,1p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+845,211,70,F,31.1,,,COPD,211_1p2_Pr_mc_AKGC417L,1p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+846,211,70,F,31.1,,,COPD,211_1p3_Ar_mc_AKGC417L,1p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+847,211,70,F,31.1,,,COPD,211_1p5_Ar_mc_AKGC417L,1p5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+848,211,70,F,31.1,,,COPD,211_2p2_Tc_mc_AKGC417L,2p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+849,211,70,F,31.1,,,COPD,211_2p3_Tc_mc_AKGC417L,2p3,Trachea,simultaneous/multichannel,AKG C417L Microphone
+850,211,70,F,31.1,,,COPD,211_2p4_Tc_mc_AKGC417L,2p4,Trachea,simultaneous/multichannel,AKG C417L Microphone
+851,212,83,M,23,,,COPD,212_2b2_Tc_mc_LittC2SE,2b2,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+852,213,58,F,24.7,,,COPD,213_1p2_Al_mc_AKGC417L,1p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+853,213,58,F,24.7,,,COPD,213_1p2_Ar_mc_AKGC417L,1p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+854,213,58,F,24.7,,,COPD,213_1p2_Lr_mc_AKGC417L,1p2,Lateral right,simultaneous/multichannel,AKG C417L Microphone
+855,213,58,F,24.7,,,COPD,213_1p2_Pl_mc_AKGC417L,1p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+856,213,58,F,24.7,,,COPD,213_1p2_Pr_mc_AKGC417L,1p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+857,213,58,F,24.7,,,COPD,213_1p2_Tc_mc_AKGC417L,1p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+858,213,58,F,24.7,,,COPD,213_1p3_Al_mc_AKGC417L,1p3,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+859,213,58,F,24.7,,,COPD,213_1p3_Ar_mc_AKGC417L,1p3,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+860,213,58,F,24.7,,,COPD,213_1p3_Pl_mc_AKGC417L,1p3,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+861,213,58,F,24.7,,,COPD,213_1p3_Pr_mc_AKGC417L,1p3,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+862,213,58,F,24.7,,,COPD,213_1p5_Al_mc_AKGC417L,1p5,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+863,213,58,F,24.7,,,COPD,213_1p5_Ar_mc_AKGC417L,1p5,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+864,213,58,F,24.7,,,COPD,213_1p5_Pl_mc_AKGC417L,1p5,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+865,213,58,F,24.7,,,COPD,213_1p5_Pr_mc_AKGC417L,1p5,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+866,213,58,F,24.7,,,COPD,213_1p5_Tc_mc_AKGC417L,1p5,Trachea,simultaneous/multichannel,AKG C417L Microphone
+867,213,58,F,24.7,,,COPD,213_2p2_Al_mc_AKGC417L,2p2,Anterior left,simultaneous/multichannel,AKG C417L Microphone
+868,213,58,F,24.7,,,COPD,213_2p2_Ar_mc_AKGC417L,2p2,Anterior right,simultaneous/multichannel,AKG C417L Microphone
+869,213,58,F,24.7,,,COPD,213_2p2_Pl_mc_AKGC417L,2p2,Posterior left,simultaneous/multichannel,AKG C417L Microphone
+870,213,58,F,24.7,,,COPD,213_2p2_Pr_mc_AKGC417L,2p2,Posterior right,simultaneous/multichannel,AKG C417L Microphone
+871,213,58,F,24.7,,,COPD,213_2p2_Tc_mc_AKGC417L,2p2,Trachea,simultaneous/multichannel,AKG C417L Microphone
+872,214,5,M,,30,118,Healthy,214_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+873,215,56,F,25.35,,,Bronchiectasis,215_1b2_Ar_sc_Meditron,1b2,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+874,215,56,F,25.35,,,Bronchiectasis,215_1b3_Tc_sc_Meditron,1b3,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+875,216,1,M,,10.25,78,Bronchiolitis,216_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+876,216,1,M,,10.25,78,Bronchiolitis,216_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+877,217,12,F,,,,Healthy,217_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+878,218,75,M,26.29,,,COPD,218_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+879,218,75,M,26.29,,,COPD,218_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+880,218,75,M,26.29,,,COPD,218_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+881,218,75,M,26.29,,,COPD,218_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+882,218,75,M,26.29,,,COPD,218_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+883,218,75,M,26.29,,,COPD,218_1p1_Ar_sc_Litt3200,1p1,Anterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+884,218,75,M,26.29,,,COPD,218_1p1_Pl_sc_Litt3200,1p1,Posterior left,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+885,218,75,M,26.29,,,COPD,218_1p1_Pr_sc_Litt3200,1p1,Posterior right,sequential/single channel,3M Litmmann 3200 Electronic Stethoscope
+886,219,81,M,26,,,Pneumonia,219_2b1_Ar_mc_LittC2SE,2b1,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+887,219,81,M,26,,,Pneumonia,219_2b1_Tc_mc_LittC2SE,2b1,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+888,219,81,M,26,,,Pneumonia,219_2b2_Ar_mc_LittC2SE,2b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+889,219,81,M,26,,,Pneumonia,219_2b2_Tc_mc_LittC2SE,2b2,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+890,219,81,M,26,,,Pneumonia,219_2b3_Tc_mc_LittC2SE,2b3,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+891,220,66,M,35.4,,,COPD,220_1b1_Tc_mc_LittC2SE,1b1,Trachea,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+892,220,66,M,35.4,,,COPD,220_1b2_Al_mc_LittC2SE,1b2,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+893,221,74,F,29,,,COPD,221_2b1_Al_mc_LittC2SE,2b1,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+894,221,74,F,29,,,COPD,221_2b1_Ar_mc_LittC2SE,2b1,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+895,221,74,F,29,,,COPD,221_2b1_Lr_mc_LittC2SE,2b1,Lateral right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+896,221,74,F,29,,,COPD,221_2b1_Pl_mc_LittC2SE,2b1,Posterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+897,221,74,F,29,,,COPD,221_2b2_Al_mc_LittC2SE,2b2,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+898,221,74,F,29,,,COPD,221_2b2_Ar_mc_LittC2SE,2b2,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+899,221,74,F,29,,,COPD,221_2b2_Lr_mc_LittC2SE,2b2,Lateral right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+900,221,74,F,29,,,COPD,221_2b2_Pl_mc_LittC2SE,2b2,Posterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+901,221,74,F,29,,,COPD,221_2b3_Al_mc_LittC2SE,2b3,Anterior left,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+902,221,74,F,29,,,COPD,221_2b3_Ar_mc_LittC2SE,2b3,Anterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+903,221,74,F,29,,,COPD,221_2b3_Lr_mc_LittC2SE,2b3,Lateral right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+904,221,74,F,29,,,COPD,221_2b3_Pr_mc_LittC2SE,2b3,Posterior right,simultaneous/multichannel,3M Littmann Classic II SE Stethoscope
+905,222,60,M,,,,COPD,222_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+906,222,60,M,,,,COPD,222_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+907,222,60,M,,,,COPD,222_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+908,223,,,,,,COPD,223_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+909,223,,,,,,COPD,223_1b1_Ar_sc_Meditron,1b1,Anterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+910,223,,,,,,COPD,223_1b1_Ll_sc_Meditron,1b1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+911,223,,,,,,COPD,223_1b1_Lr_sc_Meditron,1b1,Lateral right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+912,223,,,,,,COPD,223_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+913,223,,,,,,COPD,223_1b1_Pr_sc_Meditron,1b1,Posterior right,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+914,224,10,F,,32.3,143,Healthy,224_1b1_Tc_sc_Meditron,1b1,Trachea,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+915,224,10,F,,32.3,143,Healthy,224_1b2_Al_sc_Meditron,1b2,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+916,225,0.83,M,,7.8,74,Healthy,225_1b1_Pl_sc_Meditron,1b1,Posterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+917,226,4,M,,16.7,103,Pneumonia,226_1b1_Al_sc_Meditron,1b1,Anterior left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+918,226,4,M,,16.7,103,Pneumonia,226_1b1_Ll_sc_Meditron,1b1,Lateral left,sequential/single channel,WelchAllyn Meditron Master Elite Electronic Stethoscope
+919,226,4,M,,16.7,103,Pneumonia,226_1b1_Pl_sc_LittC2SE,1b1,Posterior left,sequential/single channel,3M Littmann Classic II SE Stethoscope

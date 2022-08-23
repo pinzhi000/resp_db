@@ -90,7 +90,68 @@ if app_mode == 'Introduction':
     st.title("Project Background")
     st.markdown("Dataset :")
 
+if app_mode == 'Patient Dashboard':
+    st.title("Patient Dashboard")
 
+    data = pd.read_csv("data/total_merge_ahmed.csv", index_col='pid', encoding="utf-8").drop("Unnamed: 0", axis=1)
+    data = data.fillna(np.nan)
+
+    pids = np.unique(data.index)
+
+    patient = st.selectbox("Patient", pids)
+    # st.write(data)
+    # st.write(data.loc[[patient]])
+    filtered_data = data.loc[[patient]]
+
+    chest_location = st.selectbox("Chest Location", [*filtered_data['Chest location']])
+
+    filtered_data = filtered_data[filtered_data['Chest location'] == chest_location]
+
+    if np.isnan(filtered_data.iloc[0, 2]):
+        col1, col2, col3, col4 = st.columns(4)
+
+        col3.metric("Child Weight", filtered_data.iloc[0, 3])
+        col4.metric("Child Height", filtered_data.iloc[0, 4])
+    else:
+        col1, col2, col3 = st.columns(3)
+
+        col3.metric("BMI", filtered_data.iloc[0, 2])
+
+    col1.metric("Age", int(filtered_data.iloc[0, 0]))
+    col2.metric("Sex", filtered_data.iloc[0, 1])
+
+    uploaded_file = open(f"audio_and_txt_files/{filtered_data.iloc[0, 6].strip()}.wav", 'rb')
+
+    audio_bytes = uploaded_file.read()
+    st.audio(audio_bytes,
+                format='audio/wav')  # https://discuss.streamlit.io/t/how-to-save-file-uploaded-mp3-and-wav-files-using-streamlit/6920/15
+
+    # input audio file is .wav
+    if uploaded_file.name.endswith('wav'):
+        file_type = 'wav'
+        # https://audiosegment.readthedocs.io/en/latest/audiosegment.html
+        audio = pydub.AudioSegment.from_wav(uploaded_file)
+
+        # export user uploaded file to app folder
+        audio.export(path + '/' + uploaded_file.name, format=file_type)
+
+    # load an audio file as a floating point time series
+    # source: https://librosa.org/doc/main/generated/librosa.load.html
+    # y: audio time series (np.ndarray); y=sound
+    # sr: sampling rate of y (scalar)
+    y, sr = librosa.load(uploaded_file.name)
+
+    # display waveplot of uploaded audio file
+    st.pyplot(plot_wave(y, sr))
+
+    st.text("")
+    st.caption("#### Audio Spectrogram Visual")
+
+    # display spectrogram
+    # STFT (Short-time Fourier transform) represents a signal in the time-frequency domain by computing discrete Fourier transforms (DFT) over short overlapping windows
+    X = librosa.stft(y)
+    Xdb = librosa.amplitude_to_db(abs(X))
+    st.pyplot(plot_spectrogram(Xdb, sr))
 
 if app_mode == 'Real-time Prediction':
     st.title("Patient Lung Diagnostics")
@@ -211,6 +272,8 @@ if app_mode == 'Real-time Prediction':
         # spinning 
 
         # collapsable -- explain model used and overall accuracy of model used for prediction 
+
+
 
 
 
