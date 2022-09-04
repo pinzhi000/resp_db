@@ -98,27 +98,58 @@ if app_mode == 'Patient Dashboard':
 
     pids = np.unique(data.index)
 
-    patient = st.selectbox("Patient", pids)
+    patient = st.selectbox("Patient ID", pids)
     # st.write(data)
     # st.write(data.loc[[patient]])
     filtered_data = data.loc[[patient]]
 
     chest_location = st.selectbox("Chest Location", [*filtered_data['Chest location']])
 
-    filtered_data = filtered_data[filtered_data['Chest location'] == chest_location]
+    st.markdown('#')
+    st.markdown('#')
 
+    filtered_data = filtered_data[filtered_data['Chest location'] == chest_location]    
+
+    original_title = '<p style="font-family:Courier; color:Orange; font-size: 20px;">Audio Report & Diagnosis</p>'
+    st.markdown(original_title, unsafe_allow_html=True)
+    st.markdown("""---""")
     if np.isnan(filtered_data.iloc[0, 2]):
         col1, col2, col3, col4 = st.columns(4)
 
-        col3.metric("Child Weight", filtered_data.iloc[0, 3])
-        col4.metric("Child Height", filtered_data.iloc[0, 4])
+        col3.metric("Child Weight (kg)", filtered_data.iloc[0, 3])
+        col4.metric("Child Height (cm)", filtered_data.iloc[0, 4])
     else:
         col1, col2, col3 = st.columns(3)
 
-        col3.metric("BMI", filtered_data.iloc[0, 2])
+        col3.metric("BMI (kg/m2)", filtered_data.iloc[0, 2])
 
     col1.metric("Age", int(filtered_data.iloc[0, 0]))
     col2.metric("Sex", filtered_data.iloc[0, 1])
+
+    def sentence_case(sentenses): 
+        words=sentenses.split(". ") 
+        new=". ".join([word.capitalize() for word in words]) 
+        return new
+
+    re = sentence_case(filtered_data.iloc[0, -1])
+    am = sentence_case(filtered_data.iloc[0, -2])
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("###### Acquisition Mode")
+        am
+    
+    with col2:
+        st.markdown("###### Recording Equipment")
+        re
+
+    st.markdown('#')
+    st.markdown('#')
+    
+    original_title = '<p style="font-family:Courier; color:Orange; font-size: 20px;">Patient Respiratory Audio</p>'
+    st.markdown(original_title, unsafe_allow_html=True)
+    st.markdown("""---""")
 
     uploaded_file = open(f"audio_and_txt_files/{filtered_data.iloc[0, 6].strip()}.wav", 'rb')
 
@@ -145,13 +176,21 @@ if app_mode == 'Patient Dashboard':
     st.pyplot(plot_wave(y, sr))
 
     st.text("")
-    st.caption("#### Audio Spectrogram Visual")
+    original_title = '<p style="font-family:Courier; color:Orange; font-size: 20px;">Audio Spectrogram Image</p>'
+    st.markdown(original_title, unsafe_allow_html=True)
+    st.markdown("""---""")
 
     # display spectrogram
     # STFT (Short-time Fourier transform) represents a signal in the time-frequency domain by computing discrete Fourier transforms (DFT) over short overlapping windows
     X = librosa.stft(y)
     Xdb = librosa.amplitude_to_db(abs(X))
     st.pyplot(plot_spectrogram(Xdb, sr))
+
+    original_title = '<p style="font-family:Courier; color:Orange; font-size: 20px;">Patient Pulmonary Diagnosis</p>'
+    st.markdown(original_title, unsafe_allow_html=True)
+    st.markdown("""---""")
+
+    st.text_area('', f'''Diagnosis: {filtered_data.iloc[0, 5]} \n - Placeholder for physician notes''')
 
 if app_mode == 'Real-time Prediction':
     st.title("Patient Lung Diagnostics")
