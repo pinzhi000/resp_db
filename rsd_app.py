@@ -110,8 +110,8 @@ if app_mode == 'Patient Dashboard':
 
     filtered_data = filtered_data[filtered_data['Chest location'] == chest_location]    
 
-    original_title = '<p style="font-family:Courier; color:Orange; font-size: 20px;">Audio Report & Diagnosis</p>'
-    st.markdown(original_title, unsafe_allow_html=True)
+    
+    st.markdown("### Audio Report & Diagnosis")
     st.markdown("""---""")
     if np.isnan(filtered_data.iloc[0, 2]):
         col1, col2, col3, col4 = st.columns(4)
@@ -147,8 +147,8 @@ if app_mode == 'Patient Dashboard':
     st.markdown('#')
     st.markdown('#')
     
-    original_title = '<p style="font-family:Courier; color:Orange; font-size: 20px;">Patient Respiratory Audio</p>'
-    st.markdown(original_title, unsafe_allow_html=True)
+    
+    st.markdown("### Patient Respiratory Audio")
     st.markdown("""---""")
 
     uploaded_file = open(f"audio_and_txt_files/{filtered_data.iloc[0, 6].strip()}.wav", 'rb')
@@ -176,8 +176,7 @@ if app_mode == 'Patient Dashboard':
     st.pyplot(plot_wave(y, sr))
 
     st.text("")
-    original_title = '<p style="font-family:Courier; color:Orange; font-size: 20px;">Audio Spectrogram Image</p>'
-    st.markdown(original_title, unsafe_allow_html=True)
+    st.markdown("### Audio Spectrogram Image")
     st.markdown("""---""")
 
     # display spectrogram
@@ -186,8 +185,7 @@ if app_mode == 'Patient Dashboard':
     Xdb = librosa.amplitude_to_db(abs(X))
     st.pyplot(plot_spectrogram(Xdb, sr))
 
-    original_title = '<p style="font-family:Courier; color:Orange; font-size: 20px;">Patient Pulmonary Diagnosis</p>'
-    st.markdown(original_title, unsafe_allow_html=True)
+    st.markdown("### Patient Pulmonary Diagnosis")
     st.markdown("""---""")
 
     st.text_area('', f'''Diagnosis: {filtered_data.iloc[0, 5]} \n - Placeholder for physician notes''')
