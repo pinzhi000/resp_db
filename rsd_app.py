@@ -84,7 +84,7 @@ def audio_features(filename):
     # page 1: introduction
 
 # add market research tab 
-app_mode = st.sidebar.selectbox('Select Page', ['Introduction', 'Patient Dashboard', 'Modeling Accuracy Dashboard', 'Real-time Prediction', 'Hardware Build'])
+app_mode = st.sidebar.selectbox('Select Page', ['Introduction', 'Real-time Prediction', 'Patient Dashboard'])
 
 if app_mode == 'Introduction':
     st.title("Project Background")
@@ -298,15 +298,6 @@ if app_mode == 'Real-time Prediction':
                 st.write("**Step 5:** CNN model has overall predictive training accuracy of ~86%")
                 st.image('./CNN/acc_loss.png')
                 
-
-
-
-
-
-
-        # spinning 
-
-        # collapsable -- explain model used and overall accuracy of model used for prediction 
 
 
 
