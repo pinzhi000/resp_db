@@ -249,7 +249,7 @@ if app_mode == 'Real-time Prediction':
             
             # loading spinner 
             with st.spinner('Calculating...'):
-                time.sleep(3)
+#                 time.sleep(3)
             
             audio_array = audio_features(uploaded_file.name)
             audio_array = audio_array.reshape(193, 1)
