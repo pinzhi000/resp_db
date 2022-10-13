@@ -24,14 +24,14 @@ import tensorflow
 import tensorflow_text as text
 
 # pickle! 
-import pickle
+# import pickle
 
 # progress bar
 import time 
 
 # test
-    # source: https://www.tensorflow.org/api_docs/python/tf/saved_model/LoadOptions
-tensorflow.saved_model.LoadOptions(experimental_io_device = '/job:localhost')
+#     # source: https://www.tensorflow.org/api_docs/python/tf/saved_model/LoadOptions
+# tensorflow.saved_model.LoadOptions(experimental_io_device = '/job:localhost')
 
 
 # define global variables 
