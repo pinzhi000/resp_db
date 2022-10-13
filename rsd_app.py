@@ -248,8 +248,8 @@ if app_mode == 'Real-time Prediction':
         if st.button("Predict"):
             
             # loading spinner 
-            with st.spinner('Calculating...')
-#                 time.sleep(3)
+            with st.spinner('Calculating...'):
+                time.sleep(10)
             
             audio_array = audio_features(uploaded_file.name)
             audio_array = audio_array.reshape(193, 1)
