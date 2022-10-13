@@ -247,6 +247,10 @@ if app_mode == 'Real-time Prediction':
 
         if st.button("Predict"):
             
+            # loading spinner 
+            with st.spinner('Calculating...'):
+                time.sleep(3)
+            
             audio_array = audio_features(uploaded_file.name)
             audio_array = audio_array.reshape(193, 1)
 
@@ -259,9 +263,9 @@ if app_mode == 'Real-time Prediction':
                 # source: https://discuss.streamlit.io/t/oserror-savedmodel-file-does-not-exist-at/12985
             model = tensorflow.keras.models.load_model('my_model_test.h5') #set filepath for Github 
 
-            # loading spinner 
-            with st.spinner('Calculating...'):
-                time.sleep(3)
+#             # loading spinner 
+#             with st.spinner('Calculating...'):
+#                 time.sleep(3)
 
             prediction_num = np.argmax(model.predict(audio_file_reshaped))
 
