@@ -194,7 +194,7 @@ if app_mode == 'Real-time Prediction':
     st.title("Patient Lung Diagnostics")
 
     # drag and drop file uploader 
-    uploaded_file = st.file_uploader("Choose an Audio File", type=[".wav", ".wave", ".flac", ".mp3", ".ogg"], accept_multiple_files=False)
+    uploaded_file = st.file_uploader("Choose an Audio File", type=[".wav"], accept_multiple_files=False)
 
     # play breathing audio 
     if uploaded_file is not None:
