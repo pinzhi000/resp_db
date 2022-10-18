@@ -204,11 +204,10 @@ if app_mode == 'Real-time Prediction':
         
         return None
 
-    "Upload a patient audio file"
+    "Upload patient audio file or choose sample file from below"
     # drag and drop file uploader 
     uploaded_file = st.file_uploader("", type=[".wav"], accept_multiple_files=False)
 
-    "Or choose a sample file from below"
     selected_provided_file = st.selectbox(
         label="", options=["Patient Audio Sample 1", "Patient Audio Sample 2", "Patient Audio Sample 3"],
         index=0
