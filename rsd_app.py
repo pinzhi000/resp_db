@@ -193,112 +193,132 @@ if app_mode == 'Patient Dashboard':
 if app_mode == 'Real-time Prediction':
     st.title("Patient Lung Diagnostics")
 
-    # drag and drop file uploader 
-    uploaded_file = st.file_uploader("Choose an Audio File", type=[".wav", ".wave", ".flac", ".mp3", ".ogg"], accept_multiple_files=False)
+    def action(uploaded_file, selected_provided_file):
+        sample_files = {"Sample 1":"105_1b1_Tc_sc_Meditron", "Sample 2":"226_1b1_Al_sc_Meditron", "Sample 3":"124_1b1_Al_sc_Litt3200"}
 
-    # play breathing audio 
-    if uploaded_file is not None:
+        if uploaded_file is not None:
+            return uploaded_file
 
-        st.text("")
-        st.text("")
-        st.caption("#### Play Uploaded Patient Audio")
-
-        # audio player 
-        audio_bytes = uploaded_file.read()
-        st.audio(audio_bytes, format='audio/wav') # https://discuss.streamlit.io/t/how-to-save-file-uploaded-mp3-and-wav-files-using-streamlit/6920/15  
-
-        # input audio file is .wav
-        if uploaded_file.name.endswith('wav'):
-    
-            file_type = 'wav'
-            # https://audiosegment.readthedocs.io/en/latest/audiosegment.html
-            audio = pydub.AudioSegment.from_wav(uploaded_file)
-
-            # export user uploaded file to app folder
-            audio.export(path+'/'+uploaded_file.name, format=file_type)
- 
-
-        # load an audio file as a floating point time series
-            # source: https://librosa.org/doc/main/generated/librosa.load.html
-            # y: audio time series (np.ndarray); y=sound 
-            # sr: sampling rate of y (scalar)
-        y, sr = librosa.load(uploaded_file.name)
+        if selected_provided_file in sample_files:
+            return open(f"audio_and_txt_files/{sample_files[selected_provided_file]}.wav", 'rb')
         
-        # display waveplot of uploaded audio file
-        st.pyplot(plot_wave(y, sr))
+        return None
 
-        st.text("")
-        st.caption("#### Audio Spectrogram Visual")
+    "Upload an audio file or choose a sample file from below"
+    # drag and drop file uploader 
+    uploaded_file = st.file_uploader("", type=[".wav", ".wave", ".flac", ".mp3", ".ogg"], accept_multiple_files=False)
 
-        # display spectrogram
-        # STFT (Short-time Fourier transform) represents a signal in the time-frequency domain by computing discrete Fourier transforms (DFT) over short overlapping windows
-        X = librosa.stft(y)
-        Xdb = librosa.amplitude_to_db(abs(X))
-        st.pyplot(plot_spectrogram(Xdb, sr))
+    
+    selected_provided_file = st.selectbox(
+        label="", options=["Sample 1", "Sample 2", "Sample 3"],
+        index=0
+    )
+    
+    if st.button('Submit'):
+        audio_file = action(uploaded_file, selected_provided_file)
+        # play breathing audio 
+        if audio_file is not None:
 
-        # to do: add sample files people can upload on the sidebar 
+            st.text("")
+            st.text("")
+            st.caption("#### Play Uploaded Patient Audio")
 
-        # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+            # audio player 
+            audio_bytes = audio_file.read()
+            st.audio(audio_bytes, format='audio/wav') # https://discuss.streamlit.io/t/how-to-save-file-uploaded-mp3-and-wav-files-using-streamlit/6920/15  
+
+            # input audio file is .wav
+            if audio_file.name.endswith('wav'):
+        
+                file_type = 'wav'
+                # https://audiosegment.readthedocs.io/en/latest/audiosegment.html
+                audio = pydub.AudioSegment.from_wav(audio_file)
+
+                # export user uploaded file to app folder
+                audio.export(path+'/'+audio_file.name, format=file_type)
+    
+
+            # load an audio file as a floating point time series
+                # source: https://librosa.org/doc/main/generated/librosa.load.html
+                # y: audio time series (np.ndarray); y=sound 
+                # sr: sampling rate of y (scalar)
+            y, sr = librosa.load(audio_file.name)
+            
+            # display waveplot of uploaded audio file
+            st.pyplot(plot_wave(y, sr))
+
+            st.text("")
+            st.caption("#### Audio Spectrogram Visual")
+
+            # display spectrogram
+            # STFT (Short-time Fourier transform) represents a signal in the time-frequency domain by computing discrete Fourier transforms (DFT) over short overlapping windows
+            X = librosa.stft(y)
+            Xdb = librosa.amplitude_to_db(abs(X))
+            st.pyplot(plot_spectrogram(Xdb, sr))
+
+            # to do: add sample files people can upload on the sidebar 
+
+            # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 
         # front-end code for prediction 
         st.markdown("---")
         st.caption("## Classify Patient Respiratory Audio")
 
-        if st.button("Predict"):
+        audio_array = audio_features(audio_file.name)
+        audio_array = audio_array.reshape(193, 1)
+
+        # transform audio array to feed into deep learning model 
+        audio_file_reshaped = np.reshape(audio_array, [1, 193, 1, 1])
+
+
+        # note: save tf model as .h5 file directly to avoid cloud deployment issues 
+            # source: https://www.tensorflow.org/guide/keras/save_and_serialize#:~:text=The%20recommended%20format%20is%20SavedModel,'h5'%20to%20save()%20.
+            # source: https://discuss.streamlit.io/t/oserror-savedmodel-file-does-not-exist-at/12985
+        model = tensorflow.keras.models.load_model('my_model_test.h5') #set filepath for Github 
+
+        # loading spinner 
+        with st.spinner('Calculating...'):
+            time.sleep(3)
+
+        prediction_num = np.argmax(model.predict(audio_file_reshaped))
+
+        # convert numbers to diseases 
+            # {"COPD":0, "Healthy":1, "URTI":2, "Bronchiectasis":3, "Pneumonia":4, "Bronchiolitis":5, "Asthma":6, "LRTI":7}
+        if prediction_num == 0:
+            class_pred = "Chronic Obstructive Pulmonary Disease (COPD)"
+        elif prediction_num == 1:
+            class_pred = "Healthy"
+        elif prediction_num == 2:
+            class_pred = "Upper Respiratory Tract Infection (URTI)"
+        elif prediction_num == 3:
+            class_pred = "Bronchiectasis"
+        elif prediction_num == 4:
+            class_pred = "Pneumonia"
+        elif prediction_num == 5:
+            class_pred = "Bronchiolitis"
+        elif prediction_num == 6:
+            class_pred = "Asthma"
+        elif prediction_num == 7:
+            class_pred = "Lower Respiratory Tract Infection (LRTI)"
+
+        # st.write("tested here!")
+        
+        # write classification to front-end 
+        st.markdown(f"**Patient Diagnosis:** {class_pred}")
+
+        # expander section to provide details around prediction 
+        with st.expander("See details"):
+            st.write("**Step 1:** ingest uploaded patient audio file")
+            st.write("**Step 2:** extract specific features from audio file and place them in an array structure (shown below)")
+            st.write(audio_array)
+            st.write("**Step 3:** push above array through Convolutional Neural Network (CNN) deep learning model to obtain prediction (CNN model structure shown below)")
+            st.image('./CNN/Model Structure Layers.png')
+            st.markdown(f"**Step 4:** Above model predicts / diagnoses the uploaded patient audio file with **{class_pred}**")
+            st.write("**Step 5:** CNN model has overall predictive training accuracy of ~86%")
+            st.image('./CNN/acc_loss.png')
             
-            audio_array = audio_features(uploaded_file.name)
-            audio_array = audio_array.reshape(193, 1)
-
-            # transform audio array to feed into deep learning model 
-            audio_file_reshaped = np.reshape(audio_array, [1, 193, 1, 1])
-
-
-            # note: save tf model as .h5 file directly to avoid cloud deployment issues 
-                # source: https://www.tensorflow.org/guide/keras/save_and_serialize#:~:text=The%20recommended%20format%20is%20SavedModel,'h5'%20to%20save()%20.
-                # source: https://discuss.streamlit.io/t/oserror-savedmodel-file-does-not-exist-at/12985
-            model = tensorflow.keras.models.load_model('my_model_test.h5') #set filepath for Github 
-
-            # loading spinner 
-            with st.spinner('Calculating...'):
-                time.sleep(3)
-
-            prediction_num = np.argmax(model.predict(audio_file_reshaped))
-
-            # convert numbers to diseases 
-                # {"COPD":0, "Healthy":1, "URTI":2, "Bronchiectasis":3, "Pneumonia":4, "Bronchiolitis":5, "Asthma":6, "LRTI":7}
-            if prediction_num == 0:
-                class_pred = "Chronic Obstructive Pulmonary Disease (COPD)"
-            elif prediction_num == 1:
-                class_pred = "Healthy"
-            elif prediction_num == 2:
-                class_pred = "Upper Respiratory Tract Infection (URTI)"
-            elif prediction_num == 3:
-                class_pred = "Bronchiectasis"
-            elif prediction_num == 4:
-                class_pred = "Pneumonia"
-            elif prediction_num == 5:
-                class_pred = "Bronchiolitis"
-            elif prediction_num == 6:
-                class_pred = "Asthma"
-            elif prediction_num == 7:
-                class_pred = "Lower Respiratory Tract Infection (LRTI)"
-
-            st.write("tested here!")
             
-            # write classification to front-end 
-            st.markdown(f"**Patient Diagnosis:** {class_pred}")
-
-            # expander section to provide details around prediction 
-            with st.expander("See details"):
-                st.write("**Step 1:** ingest uploaded patient audio file")
-                st.write("**Step 2:** extract specific features from audio file and place them in an array structure (shown below)")
-                st.write(audio_array)
-                st.write("**Step 3:** push above array through Convolutional Neural Network (CNN) deep learning model to obtain prediction (CNN model structure shown below)")
-                st.image('./CNN/Model Structure Layers.png')
-                st.markdown(f"**Step 4:** Above model predicts / diagnoses the uploaded patient audio file with **{class_pred}**")
-                st.write("**Step 5:** CNN model has overall predictive training accuracy of ~86%")
-                st.image('./CNN/acc_loss.png')
                 
 
 
