@@ -24,14 +24,14 @@ import tensorflow
 import tensorflow_text as text
 
 # pickle! 
-import pickle
+# import pickle
 
 # progress bar
 import time 
 
 # test
-    # source: https://www.tensorflow.org/api_docs/python/tf/saved_model/LoadOptions
-tensorflow.saved_model.LoadOptions(experimental_io_device = '/job:localhost')
+#     # source: https://www.tensorflow.org/api_docs/python/tf/saved_model/LoadOptions
+# tensorflow.saved_model.LoadOptions(experimental_io_device = '/job:localhost')
 
 
 # define global variables 
@@ -84,7 +84,7 @@ def audio_features(filename):
     # page 1: introduction
 
 # add market research tab 
-app_mode = st.sidebar.selectbox('Select Page', ['Introduction', 'Patient Dashboard', 'Modeling Accuracy Dashboard', 'Real-time Prediction', 'Hardware Build'])
+app_mode = st.sidebar.selectbox('Select Page', ['Introduction', 'Real-time Prediction', 'Patient Dashboard'])
 
 if app_mode == 'Introduction':
     st.title("Project Background")
@@ -261,51 +261,53 @@ if app_mode == 'Real-time Prediction':
             # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 
-        # front-end code for prediction 
-        st.markdown("---")
-        st.caption("## Classify Patient Respiratory Audio")
+            # front-end code for prediction 
+            st.markdown("---")
+            st.caption("## Classify Patient Respiratory Audio")
 
-        audio_array = audio_features(audio_file.name)
-        audio_array = audio_array.reshape(193, 1)
+            # loading spinner 
+            with st.spinner('Calculating...'):
+                time.sleep(4)
 
-        # transform audio array to feed into deep learning model 
-        audio_file_reshaped = np.reshape(audio_array, [1, 193, 1, 1])
+            audio_array = audio_features(audio_file.name)
+            audio_array = audio_array.reshape(193, 1)
+
+            # transform audio array to feed into deep learning model 
+            audio_file_reshaped = np.reshape(audio_array, [1, 193, 1, 1])
 
 
-        # note: save tf model as .h5 file directly to avoid cloud deployment issues 
-            # source: https://www.tensorflow.org/guide/keras/save_and_serialize#:~:text=The%20recommended%20format%20is%20SavedModel,'h5'%20to%20save()%20.
-            # source: https://discuss.streamlit.io/t/oserror-savedmodel-file-does-not-exist-at/12985
-        model = tensorflow.keras.models.load_model('my_model_test.h5') #set filepath for Github 
+            # note: save tf model as .h5 file directly to avoid cloud deployment issues 
+                # source: https://www.tensorflow.org/guide/keras/save_and_serialize#:~:text=The%20recommended%20format%20is%20SavedModel,'h5'%20to%20save()%20.
+                # source: https://discuss.streamlit.io/t/oserror-savedmodel-file-does-not-exist-at/12985
+            model = tensorflow.keras.models.load_model('my_model_test.h5') #set filepath for Github 
 
-        # loading spinner 
-        with st.spinner('Calculating...'):
-            time.sleep(3)
+    #             # loading spinner 
+    #             with st.spinner('Calculating...'):
+    #                 time.sleep(3)
 
-        prediction_num = np.argmax(model.predict(audio_file_reshaped))
+            prediction_num = np.argmax(model.predict(audio_file_reshaped))
 
-        # convert numbers to diseases 
-            # {"COPD":0, "Healthy":1, "URTI":2, "Bronchiectasis":3, "Pneumonia":4, "Bronchiolitis":5, "Asthma":6, "LRTI":7}
-        if prediction_num == 0:
-            class_pred = "Chronic Obstructive Pulmonary Disease (COPD)"
-        elif prediction_num == 1:
-            class_pred = "Healthy"
-        elif prediction_num == 2:
-            class_pred = "Upper Respiratory Tract Infection (URTI)"
-        elif prediction_num == 3:
-            class_pred = "Bronchiectasis"
-        elif prediction_num == 4:
-            class_pred = "Pneumonia"
-        elif prediction_num == 5:
-            class_pred = "Bronchiolitis"
-        elif prediction_num == 6:
-            class_pred = "Asthma"
-        elif prediction_num == 7:
-            class_pred = "Lower Respiratory Tract Infection (LRTI)"
-
-        # st.write("tested here!")
-        
-        # write classification to front-end 
-        st.markdown(f"**Patient Diagnosis:** {class_pred}")
+            # convert numbers to diseases 
+                # {"COPD":0, "Healthy":1, "URTI":2, "Bronchiectasis":3, "Pneumonia":4, "Bronchiolitis":5, "Asthma":6, "LRTI":7}
+            if prediction_num == 0:
+                class_pred = "Chronic Obstructive Pulmonary Disease (COPD)"
+            elif prediction_num == 1:
+                class_pred = "Healthy"
+            elif prediction_num == 2:
+                class_pred = "Upper Respiratory Tract Infection (URTI)"
+            elif prediction_num == 3:
+                class_pred = "Bronchiectasis"
+            elif prediction_num == 4:
+                class_pred = "Pneumonia"
+            elif prediction_num == 5:
+                class_pred = "Bronchiolitis"
+            elif prediction_num == 6:
+                class_pred = "Asthma"
+            elif prediction_num == 7:
+                class_pred = "Lower Respiratory Tract Infection (LRTI)"
+            
+            # write classification to front-end 
+            st.markdown(f"**Patient Diagnosis:** {class_pred}")
 
         # expander section to provide details around prediction 
         with st.expander("See details"):
@@ -320,15 +322,6 @@ if app_mode == 'Real-time Prediction':
             
             
                 
-
-
-
-
-
-
-        # spinning 
-
-        # collapsable -- explain model used and overall accuracy of model used for prediction 
 
 
 
