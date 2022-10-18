@@ -194,7 +194,7 @@ if app_mode == 'Real-time Prediction':
     st.title("Patient Lung Diagnostics")
 
     def action(uploaded_file, selected_provided_file):
-        sample_files = {"Sample 1":"105_1b1_Tc_sc_Meditron", "Sample 2":"226_1b1_Al_sc_Meditron", "Sample 3":"124_1b1_Al_sc_Litt3200"}
+        sample_files = {"Patient Audio Sample 1":"105_1b1_Tc_sc_Meditron", "Patient Audio Sample 2":"226_1b1_Al_sc_Meditron", "Patient Audio Sample 3":"124_1b1_Al_sc_Litt3200"}
 
         if uploaded_file is not None:
             return uploaded_file
