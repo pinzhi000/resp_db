@@ -316,7 +316,7 @@ if app_mode == 'Real-time Prediction':
             st.write("**Step 3:** push above array through LSTM Neural Network deep learning model to obtain prediction (model structure shown below)")
             st.image('./LSTM/Model Structure Layers.png')
             st.markdown(f"**Step 4:** Above model predicts / diagnoses the uploaded patient audio file with **{class_pred}**")
-            st.write("**Step 5:** CNN model has overall predictive training accuracy of ~98%")
+            st.write("**Step 5:** LSTM model has overall predictive training accuracy of ~98%")
             st.image('./LSTM/acc_loss.png')
             
             
