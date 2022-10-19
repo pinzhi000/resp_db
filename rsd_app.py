@@ -313,11 +313,11 @@ if app_mode == 'Real-time Prediction':
             st.write("**Step 1:** ingest uploaded patient audio file")
             st.write("**Step 2:** extract specific features from audio file and place them in an array structure (shown below)")
             st.write(audio_array)
-            st.write("**Step 3:** push above array through Convolutional Neural Network (CNN) deep learning model to obtain prediction (CNN model structure shown below)")
-            st.image('./CNN/Model Structure Layers.png')
+            st.write("**Step 3:** push above array through LSTM Neural Network deep learning model to obtain prediction (model structure shown below)")
+            st.image('./LSTM/Model Structure Layers.png')
             st.markdown(f"**Step 4:** Above model predicts / diagnoses the uploaded patient audio file with **{class_pred}**")
-            st.write("**Step 5:** CNN model has overall predictive training accuracy of ~86%")
-            st.image('./CNN/acc_loss.png')
+            st.write("**Step 5:** CNN model has overall predictive training accuracy of ~98%")
+            st.image('./LSTM/acc_loss.png')
             
             
                 
