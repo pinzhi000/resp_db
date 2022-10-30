@@ -1,3 +1,96 @@
+# import streamlit as st
+# import pandas as pd
+# import numpy as np 
+# import sklearn
+# import os 
+
+# import io
+# from pathlib import Path
+# import librosa
+# import librosa.display
+
+# import numpy as np
+# import streamlit as st
+# from matplotlib import pyplot as plt
+
+# import audiomentations
+# from scipy.io import wavfile
+# import wave
+# import pydub
+
+# # deep learning 
+# import keras 
+# import tensorflow 
+# import tensorflow_text as text
+
+# # pickle! 
+# # import pickle
+
+# # progress bar
+# import time 
+
+# # test
+# #     # source: https://www.tensorflow.org/api_docs/python/tf/saved_model/LoadOptions
+# # tensorflow.saved_model.LoadOptions(experimental_io_device = '/job:localhost')
+
+
+# # define global variables 
+# # set path 
+# path = os.path.dirname(__file__)
+
+
+# # define global functions 
+
+# # plot audio waveform func
+# def plot_wave(y, sr):
+#     fig, ax = plt.subplots(figsize=(14,5))
+    
+#     # Visualize a waveform in the time domain
+#         # source: https://librosa.org/doc/main/generated/librosa.display.waveshow.html
+#     img = librosa.display.waveshow(y, sr=sr, x_axis="time")
+
+#     return plt.gcf()
+
+# # plot spectrogram func
+# def plot_spectrogram (Xdb, sr):
+#     fig, ax = plt.subplots(figsize=(20,7))
+    
+#     # asdfasfd
+#         # source: asfafd
+#     img = librosa.display.specshow(Xdb, sr=sr, x_axis='time', y_axis='hz')
+
+#     return plt.gcf()
+
+# # process audio file func 
+#     # ingest audio file and change it into numpy array to feed into model 
+
+# def audio_features(filename): 
+#     sound, sample_rate = librosa.load(filename)
+#     stft = np.abs(librosa.stft(sound))  
+ 
+#     mfccs = np.mean(librosa.feature.mfcc(y=sound, sr=sample_rate, n_mfcc=40),axis=1)
+#     chroma = np.mean(librosa.feature.chroma_stft(S=stft, sr=sample_rate),axis=1)
+#     mel = np.mean(librosa.feature.melspectrogram(sound, sr=sample_rate),axis=1)
+#     contrast = np.mean(librosa.feature.spectral_contrast(S=stft, sr=sample_rate),axis=1)
+#     tonnetz = np.mean(librosa.feature.tonnetz(y=librosa.effects.harmonic(sound), sr=sample_rate),axis=1)
+    
+#     concat = np.concatenate((mfccs,chroma,mel,contrast,tonnetz))
+#     return concat
+
+
+
+
+# # create 5 pages in streamlit app 
+#     # page 1: introduction
+
+# # add market research tab 
+# app_mode = st.sidebar.selectbox('Select Page', ['Introduction', 'Real-time Prediction', 'Patient Dashboard'])
+
+# if app_mode == 'Introduction':
+#     st.title("Project Background")
+#     st.markdown("Dataset :")
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np 
@@ -78,6 +171,37 @@ def audio_features(filename):
     return concat
 
 
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+import base64
+def add_bg_from_local(image_file):
+    with open(image_file, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read())
+    st.markdown(
+    f"""
+    <style>
+    .stApp {{
+
+        background-color: #fefbd8
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
+
+        # background-image: url(data:image/{"jpg"};base64,{encoded_string.decode()});
+        # background-size: cover
 
 
 # create 5 pages in streamlit app 
@@ -87,9 +211,91 @@ def audio_features(filename):
 app_mode = st.sidebar.selectbox('Select Page', ['Introduction', 'Real-time Prediction', 'Patient Dashboard'])
 
 if app_mode == 'Introduction':
-    st.title("Project Background")
-    st.markdown("Dataset :")
+    # add_bg_from_url() 
+    add_bg_from_local('1980.jpg')   
 
+
+    # st.title("Project Background")
+
+
+
+    st.text("")
+    st.markdown("### Project Background")
+    st.markdown("""
+
+Digital stethoscopes are used to record sounds emitted from
+patients’ lungs, including respiratory/breathing audio.
+Physicians can leverage these digital audio files to diagnose
+patients with ailments such as COPD. The problem our team
+is solving revolves around processing a large collection of
+audio files in an effort to accurately diagnose patients with
+certain lung diseases using deep learning models. We have
+incorporated the results into an interactive front-end
+visualization. Our project is important since our team’s web
+application can potentially be deployed at hospitals across
+the country. The model output classifies each patient’s audio with
+one of the following diagnoses: COPD, Healthy, URTI,
+Bronchiectasis, Pneumonia, or Bronchiolitis. Physicians should care because our algorithm’s
+diagnostic classifier can be utilized to affirm, contradict, or
+further investigate their personal opinions.
+
+""")
+    st.image('./LSTM/1980.jpg')
+
+
+
+    st.text("")
+    st.markdown("### Dataset")
+    st.markdown("""
+The dataset used for this project is the Respiratory Sound database and it was originally compiled to support the scientific challenge organized at Int. Conf. on Biomedical Health Informatics - ICBHI 2017. 
+The Respiratory Sound Database contains audio samples, collected independently by two research teams in two different countries, over several years. 
+The database consists of a total of 5.5 hours of recordings containing 6898 respiratory cycles, of which 1864 contain crackles, 886 contain wheezes, and 506 contain both crackles and wheezes in 920 annotated audio samples from 126 subjects.
+ This Respiratory Sound database is 2.01 GB in size and is used for our project.
+""")
+
+
+    
+#     st.text("")
+#     st.markdown("### Approach Methodology ")
+#     st.markdown("""
+#     I write articles about Data Science, Python and related topics. 
+#     The articles are mostly written on the Medium platform.
+    
+#     You can find my articles [here](https://alan-jones.medium.com)
+#     and if you would like to know when I publish new ones, you can 
+#     sign up for an email alert on my Medium 
+#     [page](https://alan-jones.medium.com/subscribe).
+#     Below are a few articles you might find interesting...
+# """)
+
+
+
+    st.text("")
+
+
+    st.markdown("### Feature Engineering ")
+    st.markdown("""  Features were extracted using a python library called Librosa. We extracted 5 different features namely mel-frequency cepstral coefficients, chromagram, mel-scaled spectrogram, spectral contrast, and tonal centroid features from every audio file.
+     We store these feature results in separate numpy arrays; these arrays capture information such as respiratory oscillations, pitch content, amplitude of breathing noises, peaks and valleys in audio, and chord sequences from .wav audio files.    """)
+    st.image('./LSTM/Pic1.png')
+
+
+
+    st.text("")
+    st.markdown("## Approach Methodology ")
+    st.markdown("""
+
+    The numpy arrays stored are used to create CNN, LSTM, CNN ensembled with unidirectional LSTM, and CNN ensembled with bidirectional
+LSTM models and we experimented with the 4 proposed neural networks’ layering structure, tuned hyperparameters, selected model checkpoint values, and early
+stopping parameters for best classification results. The
+algorithms were designed using the python libraries
+tensorflow and keras. The libraries pandas
+& numpy were used for data handling and vectorization respectively. The evaluation metrics used were accuracy, precision, recall and F1-score.
+
+""")
+
+    st.markdown(""" The Sequential LSTM model with the architecture presented below provided with the best evaluation metrics, notably an accuracy of 98% """)
+
+    st.image('./LSTM/Pic2.png')
 if app_mode == 'Patient Dashboard':
     st.title("Patient Dashboard")
 
