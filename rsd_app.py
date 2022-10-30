@@ -293,7 +293,7 @@ tensorflow and keras. The libraries pandas
 
 """)
 
-    st.markdown(""" The Sequential LSTM model with the architecture presented below provided with the best evaluation metrics, notably an accuracy of 98% """)
+    st.markdown(""" The Sequential LSTM model with the architecture presented below provided with the best evaluation metrics, notably an accuracy of 98%. """)
 
     st.image('./LSTM/Pic2.png')
 if app_mode == 'Patient Dashboard':
