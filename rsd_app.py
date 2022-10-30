@@ -193,7 +193,7 @@ def add_bg_from_local(image_file):
     <style>
     .stApp {{
 
-        background-color: #fefbd8
+        background-color: #d8f9ff
     }}
     </style>
     """,
@@ -212,7 +212,7 @@ app_mode = st.sidebar.selectbox('Select Page', ['Introduction', 'Real-time Predi
 
 if app_mode == 'Introduction':
     # add_bg_from_url() 
-#     add_bg_from_local('1980.jpg')   
+    add_bg_from_local('./LSTM/1980.jpg')   
 
 
     # st.title("Project Background")
