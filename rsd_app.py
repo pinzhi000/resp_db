@@ -193,7 +193,7 @@ def add_bg_from_local(image_file):
     <style>
     .stApp {{
 
-        background-color: #b3e5fc
+        background-color: #d8f9ff
     }}
     </style>
     """,
