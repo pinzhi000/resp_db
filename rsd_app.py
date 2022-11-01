@@ -232,7 +232,7 @@ audio files in an effort to accurately diagnose patients with
 certain lung diseases using deep learning models. We have
 incorporated our algorithms into a MVP fullstack application. 
 
-st.text("")
+st.markdown("***")
 
 Our project is important since our team’s web
 application can potentially be deployed at hospitals across
