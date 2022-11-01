@@ -230,7 +230,7 @@ We have embedded our algorithms into a MVP fullstack application.
 
 Our software tool has market potential since it can be deployed at hospitals, doctors' offices, and medical schools across the country. The model output classifies each patient’s audio with
 one of the following diagnoses: **COPD, Healthy, URTI, Bronchiectasis, Pneumonia, or Bronchiolitis**. 
-Our algorithm’s diagnostic classifier can be utilized to affirm, contradict, or further investigate a patient's lung disease diagnosis.
+Our algorithm’s classifier can be utilized to affirm, contradict, or further investigate a patient's lung disease diagnosis.
 
 """)
     st.image('./LSTM/1980.jpg')
