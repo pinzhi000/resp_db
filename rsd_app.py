@@ -242,7 +242,7 @@ Our algorithm’s classifier can be utilized to affirm, contradict, or further i
     st.markdown("""
 The dataset used for this project was commissioned by the 2017 International Conference on Biomedical Health Informatics (ICBHI 2017). 
 The provided database contains audio samples collected by 2 independent bioinformatics research teams over a time period of several years. 
-Specifically, it consists of 920 annotated respiratory audio files recorded from 126 test subjects.  In total, our team listened to 5.5 hours of patient breathing audio containing 6898 respiratory cycles. 
+Specifically, the database is comprised of 920 annotated respiratory audio files recorded from 126 test subjects.  In total, our team listened to 5.5 hours of patient breathing audio. 
 """)
 
 
