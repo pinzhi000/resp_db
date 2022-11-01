@@ -278,15 +278,15 @@ Specifically, the database is comprised of 920 annotated respiratory audio files
     st.markdown("""
 
     Our team programmed 4 customized neural networks capable of ingesting patient audio recordings and spitting out accurate diagnostic predictions.  The algorithms are:
-    st.markdown("- Convolutional Neural Network (CNN)")
-    st.markdown("- Convolutional neural network (CNN)")
+    - Convolutional Neural Network (CNN)
+    - Long Short-term Memory Artificial Neural Network (LSTM)
+    - CNN ensembled with Unidirectional LSTM
+    - CNN ensembled with Bidirectional LSTM
     
-    The numpy arrays stored are used to create CNN, LSTM, CNN ensembled with unidirectional LSTM, and CNN ensembled with bidirectional
-    LSTM models and we experimented with the 4 proposed neural networks’ layering structure, tuned hyperparameters, selected model checkpoint values, and early
-    stopping parameters for best classification results. The
-    algorithms were designed using the python libraries
-    tensorflow and keras. The libraries pandas
-    & numpy were used for data handling and vectorization respectively. The evaluation metrics used were accuracy, precision, recall and F1-score.
+    We experimented with the 4 proposed neural networks’ layering structures, hyperparameters, checkpoint values, and early
+    stopping parameters for best classification results. The algorithms were designed using python libraries tensorflow and keras. 
+
+    The evaluation metrics used were accuracy, precision, recall and F1-score.
 
 """)
 
