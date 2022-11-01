@@ -242,7 +242,7 @@ Our algorithm’s classifier can be utilized to affirm, contradict, or further i
     st.markdown("""
 The dataset used for this project was commissioned by the 2017 International Conference on Biomedical Health Informatics (ICBHI 2017). 
 The provided database contains audio samples collected by 2 independent bioinformatics research teams over a time period of several years. 
-Specifically, the database is comprised of 920 annotated respiratory audio files recorded from 126 test subjects.  In total, our team listened to 5.5 hours of patient breathing audio. 
+Specifically, the database is comprised of 920 annotated respiratory audio files recorded from 126 test subjects.  In total, our team listened to 5.5 hours of patient breathing audio spanning 6898 respiratory cycles. 
 """)
 
 
@@ -267,9 +267,8 @@ Specifically, the database is comprised of 920 annotated respiratory audio files
 
     st.markdown("### Feature Engineering ")
     st.markdown("""  Predictive features were extracted from each patient audio recording using a python library called Librosa. 
-    Our AI engineers extracted 5 key features: mel-frequency cepstral coefficients, chromagram, mel-scaled spectrogram, spectral contrast, and tonal centroid features.
-    We then stored the above results in numerical form via numpy arrays.  
-    These arrays capture critical information such as respiratory oscillations, pitch content, amplitude of breathing noises, peaks and valleys in audio, and chord sequences from .wav audio files.    """)
+    Our AI engineers extracted the following 5 key features: mel-frequency cepstral coefficients, chromagram, mel-scaled spectrogram, spectral contrast, and tonal centroid features.
+    We then stored the above results in numerical form via numpy arrays.  These arrays capture critical information such as respiratory oscillations, pitch content, amplitude of breathing noises, peaks and valleys in audio, and chord sequences from .wav audio files.""")
     st.image('./LSTM/Pic1.png')
 
 
@@ -279,11 +278,11 @@ Specifically, the database is comprised of 920 annotated respiratory audio files
     st.markdown("""
 
     The numpy arrays stored are used to create CNN, LSTM, CNN ensembled with unidirectional LSTM, and CNN ensembled with bidirectional
-LSTM models and we experimented with the 4 proposed neural networks’ layering structure, tuned hyperparameters, selected model checkpoint values, and early
-stopping parameters for best classification results. The
-algorithms were designed using the python libraries
-tensorflow and keras. The libraries pandas
-& numpy were used for data handling and vectorization respectively. The evaluation metrics used were accuracy, precision, recall and F1-score.
+    LSTM models and we experimented with the 4 proposed neural networks’ layering structure, tuned hyperparameters, selected model checkpoint values, and early
+    stopping parameters for best classification results. The
+    algorithms were designed using the python libraries
+    tensorflow and keras. The libraries pandas
+    & numpy were used for data handling and vectorization respectively. The evaluation metrics used were accuracy, precision, recall and F1-score.
 
 """)
 
