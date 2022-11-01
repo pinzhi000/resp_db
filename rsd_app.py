@@ -223,22 +223,15 @@ if app_mode == 'Introduction':
     st.markdown("### Project Background")
     st.markdown("""
 
-Digital stethoscopes are used to record sounds emitted from
-patients’ lungs including respiratory or breathing audio.
-Physicians can leverage these digital audio files to diagnose
-patients with ailments such as chronic pulmonary obstructive disease (COPD). 
-The problem our team is solving revolves around processing a large collection of
-audio files in an effort to accurately diagnose patients with
-certain lung diseases using deep learning models. We have
-incorporated our algorithms into a MVP fullstack application. 
+Digital stethoscopes are used to record sounds emitted from patients’ lungs including respiratory or breathing audio.
+Physicians can leverage these digital audio files to diagnose patients with ailments such as chronic pulmonary obstructive disease (COPD). 
+The problem our team is solving revolves around processing a large collection of audio files in an effort to accurately diagnose patients with certain lung diseases using deep learning models. 
+We have embedded our algorithms into a MVP fullstack application. 
 
-Our project is important since our team’s web
-application can potentially be deployed at hospitals across
-the country. The model output classifies each patient’s audio with
-one of the following diagnoses: COPD, Healthy, URTI,
-Bronchiectasis, Pneumonia, or Bronchiolitis. Physicians should care because our algorithm’s
-diagnostic classifier can be utilized to affirm, contradict, or
-further investigate their personal opinions.
+Our diagnostic software tool has market potential since it may be 
+deployed at hospitals, doctors' offices, and medical schools across the country. The model output classifies each patient’s audio with
+one of the following diagnoses: **COPD, Healthy, URTI, Bronchiectasis, Pneumonia, or Bronchiolitis**. 
+Our algorithm’s diagnostic classifier can be utilized to affirm, contradict, or further investigate a patient's lung disease diagnosis.
 
 """)
     st.image('./LSTM/1980.jpg')
