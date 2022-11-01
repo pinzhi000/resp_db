@@ -240,10 +240,9 @@ Our algorithm’s classifier can be utilized to affirm, contradict, or further i
     st.text("")
     st.markdown("### Dataset")
     st.markdown("""
-The dataset used for this project is the Respiratory Sound database and it was originally compiled to support the scientific challenge organized at Int. Conf. on Biomedical Health Informatics - ICBHI 2017. 
-The Respiratory Sound Database contains audio samples, collected independently by two research teams in two different countries, over several years. 
-The database consists of a total of 5.5 hours of recordings containing 6898 respiratory cycles, of which 1864 contain crackles, 886 contain wheezes, and 506 contain both crackles and wheezes in 920 annotated audio samples from 126 subjects.
- This Respiratory Sound database is 2.01 GB in size and is used for our project.
+The dataset used for this project was commissioned by the 2017 International Conference on Biomedical Health Informatics (ICBHI 2017). 
+The provided database contains audio samples collected by 2 independent bioinformatics research teams over a time period of several years. 
+Specifically, it consists of 920 annotated respiratory audio files recorded from 126 test subjects.  In total, our team listened to 5.5 hours of patient breathing audio containing 6898 respiratory cycles. 
 """)
 
 
