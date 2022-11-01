@@ -266,8 +266,10 @@ Specifically, the database is comprised of 920 annotated respiratory audio files
 
 
     st.markdown("### Feature Engineering ")
-    st.markdown("""  Features were extracted using a python library called Librosa. We extracted 5 different features namely mel-frequency cepstral coefficients, chromagram, mel-scaled spectrogram, spectral contrast, and tonal centroid features from every audio file.
-     We store these feature results in separate numpy arrays; these arrays capture information such as respiratory oscillations, pitch content, amplitude of breathing noises, peaks and valleys in audio, and chord sequences from .wav audio files.    """)
+    st.markdown("""  Predictive features were extracted from each patient audio recording using a python library called Librosa. 
+    Our AI engineers extracted 5 key features: mel-frequency cepstral coefficients, chromagram, mel-scaled spectrogram, spectral contrast, and tonal centroid features.
+    We then stored the above results in numerical form via numpy arrays.  
+    These arrays capture critical information such as respiratory oscillations, pitch content, amplitude of breathing noises, peaks and valleys in audio, and chord sequences from .wav audio files.    """)
     st.image('./LSTM/Pic1.png')
 
 
