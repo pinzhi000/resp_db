@@ -226,12 +226,15 @@ if app_mode == 'Introduction':
 Digital stethoscopes are used to record sounds emitted from
 patients’ lungs including respiratory or breathing audio.
 Physicians can leverage these digital audio files to diagnose
-patients with ailments such as chronic pulmonary obstructive disease (COPD). The problem our team
-is solving revolves around processing a large collection of
+patients with ailments such as chronic pulmonary obstructive disease (COPD). 
+The problem our team is solving revolves around processing a large collection of
 audio files in an effort to accurately diagnose patients with
 certain lung diseases using deep learning models. We have
-incorporated the results into an interactive front-end
-visualization. Our project is important since our team’s web
+incorporated our algorithms into a MVP fullstack application. 
+
+st.text("")
+
+Our project is important since our team’s web
 application can potentially be deployed at hospitals across
 the country. The model output classifies each patient’s audio with
 one of the following diagnoses: COPD, Healthy, URTI,
