@@ -284,13 +284,13 @@ Specifically, the database is comprised of 920 annotated respiratory audio files
     - CNN ensembled with Bidirectional LSTM
     
     We experimented with the 4 proposed neural networks’ layering structures, hyperparameters, checkpoint values, and early
-    stopping parameters for best classification results. The algorithms were designed using python libraries tensorflow and keras. 
+    stopping parameters to produce optimal disease classification results. The algorithms were designed using python libraries tensorflow and keras. 
 
-    The evaluation metrics used were accuracy, precision, recall and F1-score.
+    The evaluation metrics of accuracy, precision, recall and F1-score were used to determine the best performing model.  
 
 """)
 
-    st.markdown(""" The Sequential LSTM model with the architecture presented below provided with the best evaluation metrics, notably an accuracy of 98%. """)
+    st.markdown(""" The **Sequential LSTM neural network** with architecture presented below provided the highest overall predictive accuracy at 98%. """)
 
     st.image('./LSTM/Pic2.png')
 if app_mode == 'Patient Dashboard':
