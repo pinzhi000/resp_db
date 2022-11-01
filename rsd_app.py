@@ -286,7 +286,7 @@ Specifically, the database is comprised of 920 annotated respiratory audio files
     We experimented with the 4 neural networks’ layering structures, hyperparameters, checkpoint values, and early
     stopping parameters to produce optimal lung disease classification results. The algorithms were designed using python libraries tensorflow and keras. 
 
-    The evaluation metrics of accuracy, precision, recall and F1-score were used to determine the best performing model.  The **Sequential LSTM neural network** with architecture presented below provided the highest overall predictive accuracy at approximately 98%  
+    Evaluation metrics of accuracy, precision, recall and F1-score were used to determine the best performing model.  The **Sequential LSTM neural network** with diagram architecture presented below provided the highest overall predictive accuracy at approximately 98%  
 """)
 
     st.markdown(""" . """)
