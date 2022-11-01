@@ -274,7 +274,7 @@ Specifically, the database is comprised of 920 annotated respiratory audio files
 
 
     st.text("")
-    st.markdown("## Methodology & Results")
+    st.markdown("### Methodology & Results")
     st.markdown("""
 
     Our team programmed 4 customized neural networks capable of ingesting patient audio recordings and spitting out accurate diagnostic predictions.  The algorithms are:
@@ -287,10 +287,10 @@ Specifically, the database is comprised of 920 annotated respiratory audio files
     stopping parameters to produce optimal disease classification results. The algorithms were designed using python libraries tensorflow and keras. 
 
     The evaluation metrics of accuracy, precision, recall and F1-score were used to determine the best performing model.  
-
+    The **Sequential LSTM neural network** with architecture presented below provided the highest overall predictive accuracy at approximately 98%  
 """)
 
-    st.markdown(""" The **Sequential LSTM neural network** with architecture presented below provided the highest overall predictive accuracy at 98%. """)
+    st.markdown(""" . """)
 
     st.image('./LSTM/Pic2.png')
 if app_mode == 'Patient Dashboard':
