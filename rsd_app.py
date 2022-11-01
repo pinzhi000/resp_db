@@ -230,7 +230,7 @@ patients with ailments such as chronic pulmonary obstructive disease (COPD).
 The problem our team is solving revolves around processing a large collection of
 audio files in an effort to accurately diagnose patients with
 certain lung diseases using deep learning models. We have
-incorporated our algorithms into a MVP fullstack application \n. 
+incorporated our algorithms into a MVP fullstack application. 
 
 Our project is important since our team’s web
 application can potentially be deployed at hospitals across
